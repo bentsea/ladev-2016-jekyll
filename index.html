@@ -180,7 +180,7 @@ layout: default
                     </div>
                 </div>
                 <div class="row">
-                    {% for post in site.posts %}
+                    {% for post in site.posts limit:6 %}
                     <article class="col-md-4 col-sm-6">
                         <figure class="blog-thumb">
                             <img src="{% if post.image %}{{ post.image }}{% else %}/images/carousel/carousel1.jpg{% endif %}" alt="{{ post.description }}" {% if post.description %}title="{{ post.description }}"{% endif %}>
