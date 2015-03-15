@@ -4,9 +4,9 @@ title:  "Guests and Cosplay"
 description: Announcing Clifford Chapin and Felicia Angelle for LouisiANIME 2015!
 date:   2015-02-15 08:00:00
 image: /images/meta/cosplayteam1-3.png
-image1: /images/guests/Headshot_Clifford.jpg
-image2: /images/guests/Headshot_Fee.jpg
-category: guests
+image1: /images/guests/headshot_clifford.jpg
+image2: /images/guests/headshot_fee.jpg
+category: guests_2015
 ---
 
 <style>

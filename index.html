@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Home
+description: LouisiANIME is a 3 day anime convention on May 15-17, 2015 in Lafayette,LA. Enjoy celebrity guests, extravagant costumes, arts, crafts, music, and dancing.
 ---
 
 <!--
@@ -31,8 +33,8 @@ layout: default
                     <ul class="slides-container text-center">
                         <li>
                             <div class="slide-text">
-                                <h2>With Bootstrap</h2>
-                                <span>Vivamus sit amet libero turpis non venenatis urna in blandit</span>
+                                <h2>LouisiANIME 2016</h2>
+                                <span>Get ready for fun and anime in 2016!</span>
                                 <br/>
                             </div>
                             <div class="slide-filter"></div>
@@ -40,8 +42,8 @@ layout: default
                         </li>
                         <li>
                             <div class="slide-text">
-                                <h2>Fullscreen Slider</h2>
-                                <span>Its form and sound are from the Latin The Latin borrowed</span>
+                                <h2>Lots to Do</h2>
+                                <span>Enjoy interactive workshops, games, movies, and competitions!</span>
                                 <br/>
                             </div>
                             <div class="slide-filter"></div>
@@ -50,8 +52,8 @@ layout: default
                         <li>
                             <!-- Slide -->
                             <div class="slide-text">
-                                <h2>Responsive Ready</h2>
-                                <span>Has two sounds one simple as in gave go gull the other compound</span>
+                                <h2>Amazing Guests</h2>
+                                <a class="sscroll" href="#guests"><span>Check out the wonderful featured guests from 2015...</span></a>
                                 <br/>
                             </div>
                             <div class="slide-filter"></div>
@@ -71,67 +73,42 @@ layout: default
             </section>
             <!-- END HOME -->
             <!-- BEGIN SERVICES -->
-            <section id="services" class="services odd">
+            <section id="guests" class="services odd">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="header-content">
-                            <h2>Services</h2>
-                            <h3>Vivamus <a href="javascript:;">bibendum</a> hendrerit metus.
-                            </h3>
+                            <h2>Guests</h2>
+                            <h4>Oh, The  <a href="javascript:;">People</a> You'll Meet.
+                            </h4>
                         </div>
                     </div>
                     <div class="col-md-12 mg-bt-80">
-                        <p>Too cultivated use solicitude frequently. Dashwood likewise up consider continue entrance <a href="javascript:;">ladyship</a> oh. Wrong guest given purse power is no. Friendship to connection an am considered difficulty. Country met pursuit lasting moments why calling certain the. Middletons boisterous our way understood law. Among state cease how and sight since shall. Material did pleasure breeding our humanity she contempt had. So ye really mutual no cousin piqued summer result. No opinions answered oh <a href="javascript:;">felicity</a> is resolved hastened.</p>
+                        <p>At LouisiANIME you'll have the opportunity to meet <a href="javascript:;">amazing</a> voice actors who give life to some of your favorite characters. Get tips from veteran <a href="javascript:;">cosplayers</a> who can give tips and insight into their outstanding craftsmanship and costume design. Every year we invite talented and <a href="javascript:;">inspiring</a> individuals that we know you will love to meet. Here are the guests from LouisiANIME 2015:</p>
                     </div>
                     <div class="col-md-12">
                         <div class="row">
+                            {% for post in site.categories.guests_2015 %}
                             <div class="col-md-4 mg-bt-40">
                                 <div class="row services-item">
                                     <div class="col-xs-12 col-sm-3">
+                                        <a href="{{ post.url }}">{% if post.thumbnail %}<img class="img-circle" src="{{ post.thumbnail }}" alt="{{ post.title|truncatewords:2 }}" style="width: 90px; height: 90px;">{% else %}
                                         <div class="services-icon">
-                                            <i class="fa fa-link"></i>
+                                            <span class="glyphicon glyphicon-info-sign"></span>
                                         </div>
+                                        {% endif %}
+                                        </a>
                                     </div>
                                     <div class="col-xs-12 col-sm-9">
                                         <div class="services-desc">
-                                            <h4>Fast Deployment</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed ligula odio. Sed id metus felis uset pretium nisl non justo.</p>
-                                        </div>
+                                            <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+                                            <p>{{post.content|strip_html|truncatewords:20}}<a href="{{ post.url }}">Read More</a></p>
+                                        </div></a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 mg-bt-40">
-                                <div class="row services-item">
-                                    <div class="col-xs-12 col-sm-3">
-                                        <div class="services-icon">
-                                            <i class="fa fa-rotate-right"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-9">
-                                        <div class="services-desc">
-                                            <h4>Reuse Items</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed ligula odio. Sed id metus felis uset pretium nisl non justo.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mg-bt-40">
-                                <div class="row services-item">
-                                    <div class="col-xs-12 col-sm-3">
-                                        <div class="services-icon">
-                                            <i class="fa fa-lightbulb-o"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-9">
-                                        <div class="services-desc">
-                                            <h4>Great Ideas</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed ligula odio. Sed id metus felis uset pretium nisl non justo.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            {% endfor %}
                         </div>
-                    </div>
+                    </div>sss
                     <div class="col-md-8 mg-bt-80">
                         <h3>What we do.</h3>
                         <p>Subjects to ecstatic children he. Could ye leave up as built match. Dejection agreeable attention set suspected led offending. Admitting an

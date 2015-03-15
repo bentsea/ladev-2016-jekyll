@@ -23,7 +23,7 @@ Text Domain: Garis Themes
 }
 h1, h2, h3, h4, h5, h6 {
     font-family:'Open Sans', sans-serif;
-    color: #FFF;
+    color: #FFFF00;
 }
 h3, h4, h5 {
     font-family:'Raleway', sans-serif;
@@ -148,6 +148,11 @@ footer p {
 }
 #sidebar .navbar-collapse {
     padding-left: 20px;
+}
+#sidebar .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 10px;
 }
 #sidebar .navbar-header, #sidebar .navbar-nav, #sidebar .navbar-nav li {
     float: none;
