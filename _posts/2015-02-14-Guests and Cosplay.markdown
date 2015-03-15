@@ -6,7 +6,7 @@ date:   2015-02-15 08:00:00
 image: /images/meta/cosplayteam1-3.png
 image1: /images/guests/Headshot_Clifford.jpg
 image2: /images/guests/Headshot_Fee.jpg
-
+category: guests
 ---
 
 <style>

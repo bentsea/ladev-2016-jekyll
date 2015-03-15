@@ -2,7 +2,7 @@
 layout: post
 title:  "Room Upgrades and Free Workshops"
 date:   2015-01-20 08:00:00
-
+category: news
 ---
 
 We've already announced on <a href="https://www.facebook.com/louisianime">our Facebook</a> that we're going to upgrade one of the hotel rooms reserved by April 5th to a suite for the entire weekend, but in case you missed it, there it is! Just call the Ramada and reserve your hotel room for LouisiANIME 2015 by April fifth and you'll be entered into a drawing to have your room upgraded.

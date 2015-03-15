@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "New News Coming Soon!"
-date:   2014-11-25 08:00:00
-
+date: 2014-11-25 08:00:00
+category: news
 ---
 
 We've been hard at work contacting guests and reviewing a lot of the feedback we've received from everyone after this year. We're set to start making announcements soon that we think will really start getting everyone excited in addition to the changes we've already made and the new venue that we've moved to. 

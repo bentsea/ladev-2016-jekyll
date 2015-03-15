@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to the Ramada!"
 date:   2015-02-05 08:00:00
 image: /images/posts/louisianime_2015_promo_05.png
+category: news
 ---
 <style>
 .fluidMedia {
