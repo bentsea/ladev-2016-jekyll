@@ -72,6 +72,43 @@ description: LouisiANIME is a 3 day anime convention on May 15-17, 2015 in Lafay
                 <!-- End of Superslide -->
             </section>
             <!-- END HOME -->
+            <!-- BEGIN ARTIST ALLEY -->
+            <section id="registration" class="portfolio">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="header-content">
+                            <h2>Registration</h2>
+                            <h3>We're getting ready for <a href="javascript:;">2016</a>.
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mg-bt-80">
+                        <p>Registration is closed right now while we finalize our dates for 2016. Check back later, or keep an eye on our <a href="#blog">blog</a> or <a href="https://www.facebook.com/louisianime">Facebook</a> page for announcements. We'll be ready for you to register before you know it! For now, check out these awesome pictures rom <strong>LouisiANIME 2015</strong>, filled with guests, cosplay, and fun times. If you have any pictures you took and you'd like to share them, <a href="mailto:{{ site.email }}">email us</a> and include them as an attachment.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <h3 class="portfolioFilter text-center">WE DO WORK ABOUT <a href="javascript:;" data-filter="websites">WEBSITES</a>, <a href="javascript:;" data-filter="illustrations">ILLUSTRATIONS</a>, <a href="javascript:;" data-filter="photo">PHOTOGRAPHS</a> AND <a href="javascript:;" data-filter="all">EVERYTHING</a>
+                        </h3>
+                    </div>
+                    <div class="col-md-12 mg-bt-80">
+                        <div class="row portfolioContainer  text-center">
+                        {% for gallery in site.data.galleries %}
+                            {% for image in gallery.images %}
+                                <div class="col-md-4 col-xs-6 portfolio-item {{ gallery.id }}">
+                                    <a class="popup" href="{{ gallery.imagefolder }}/{{ image.name }}" title="{{ image.text }}">
+                                        <span class="project-hover">
+                                            <span>{{ image.text }}
+                                            </span>
+                                        </span>
+                                        <img src="{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ image.text }}">
+                                    </a>
+                                </div>
+                            {% endfor %}
+                        {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END ARTIST ALLEY -->
             <!-- BEGIN SERVICES -->
             <section id="guests" class="services odd">
                 <div class="row">
@@ -91,7 +128,7 @@ description: LouisiANIME is a 3 day anime convention on May 15-17, 2015 in Lafay
                             <div class="col-md-4 mg-bt-40">
                                 <div class="row services-item">
                                     <div class="col-xs-12 col-sm-3">
-                                        <a href="{{ post.url }}">{% if post.thumbnail %}<img class="img-circle" src="{{ post.thumbnail }}" alt="{{ post.title|truncatewords:2 }}" style="width: 90px; height: 90px;">{% else %}
+                                        <a href="{{ post.url }}">{% if post.thumbnail %}<img class="img-circle" src="{{ post.thumbnail }}" alt="{{ post.title|truncatewords:2 }}" style="width: 85px; height: 90px;">{% else %}
                                         <div class="services-icon">
                                             <span class="glyphicon glyphicon-info-sign"></span>
                                         </div>
@@ -99,16 +136,16 @@ description: LouisiANIME is a 3 day anime convention on May 15-17, 2015 in Lafay
                                         </a>
                                     </div>
                                     <div class="col-xs-12 col-sm-9">
-                                        <div class="services-desc">
+                                        <div class="services-desc" style="padding-left: 5px;">
                                             <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
-                                            <p>{{post.content|strip_html|truncatewords:20}}<a href="{{ post.url }}">Read More</a></p>
+                                            <p>&nbsp;&nbsp;&nbsp;{{post.content|strip_html|truncatewords:20}}<a href="{{ post.url }}">Read More</a></p>
                                         </div></a>
                                     </div>
                                 </div>
                             </div>
                             {% endfor %}
                         </div>
-                    </div>sss
+                    </div>
                     <div class="col-md-8 mg-bt-80">
                         <h3>What we do.</h3>
                         <p>Subjects to ecstatic children he. Could ye leave up as built match. Dejection agreeable attention set suspected led offending. Admitting an
@@ -187,82 +224,3 @@ description: LouisiANIME is a 3 day anime convention on May 15-17, 2015 in Lafay
                 </div>
             </section>
             <!-- END BLOG -->
-            <!-- BEGIN ARTIST ALLEY -->
-            <section id="artistalley" class="portfolio odd">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="header-content">
-                            <h2>Portfolio</h2>
-                            <h3>Look Our Works on <a href="javascript:;">Dribbble.</a>
-                            </h3>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mg-bt-80">
-                        <p>Too cultivated use solicitude frequently. Dashwood <a href="javascript:;">likewise</a> up consider continue entrance ladyship oh. Wrong guest given purse power is no. Friendship to
-                            <strong>connection</strong>&nbsp; an am considered difficulty. Country met pursuit lasting moments why calling certain the. Middletons boisterous our way understood law. Among state cease how and sight since shall. Material did pleasure breeding our humanity she contempt had. So ye really mutual no cousin piqued summer result. No opinions answered oh <a href="javascript:;">felicity</a> is resolved hastened.</p>
-                    </div>
-                    <div class="col-md-12">
-                        <h3 class="portfolioFilter text-center">WE DO WORK ABOUT <a href="javascript:;" data-filter="websites">WEBSITES</a>, <a href="javascript:;" data-filter="illustrations">ILLUSTRATIONS</a>, <a href="javascript:;" data-filter="photo">PHOTOGRAPHS</a> AND <a href="javascript:;" data-filter="all">EVERYTHING</a>
-                        </h3>
-                    </div>
-                    <div class="col-md-12 mg-bt-80">
-                        <div class="row portfolioContainer  text-center">
-                            <div class="col-md-4 col-xs-6 portfolio-item websites">
-                                <a class="popup" href="images/portfolio-thumb-1.jpg" title="This is an image title">
-                                    <span class="project-hover">
-                                        <span>Designing UI/UX
-                                        </span>
-                                    </span>
-                                    <img src="images/portfolio-thumb-1.jpg" alt="portfolio-thumb-1">
-                                </a>
-                            </div>
-                            <div class="col-md-4 col-xs-6 portfolio-item illustrations">
-                                <a class="popup" href="images/portfolio-thumb-5.jpg">
-                                    <span class="project-hover">
-                                        <span>Designing Apps
-                                        </span>
-                                    </span>
-                                    <img src="images/portfolio-thumb-5.jpg" alt="portfolio-thumb-5">
-                                </a>
-                            </div>
-                            <div class="col-md-4 col-xs-6 portfolio-item websites">
-                                <a class="popup" href="images/portfolio-thumb-3.jpg">
-                                    <span class="project-hover">
-                                        <span>Branding Identity
-                                        </span>
-                                    </span>
-                                    <img src="images/portfolio-thumb-3.jpg" alt="portfolio-thumb-3">
-                                </a>
-                            </div>
-                            <div class="col-md-4 col-xs-6 portfolio-item photo">
-                                <a class="popup" href="images/portfolio-thumb-4.jpg">
-                                    <span class="project-hover">
-                                        <span>Photography
-                                        </span>
-                                    </span>
-                                    <img src="images/portfolio-thumb-4.jpg" alt="portfolio-thumb-4">
-                                </a>
-                            </div>
-                            <div class="col-md-4 col-xs-6 portfolio-item websites">
-                                <a class="popup" href="images/portfolio-thumb-2.jpg">
-                                    <span class="project-hover">
-                                        <span>Website Design
-                                        </span>
-                                    </span>
-                                    <img src="images/portfolio-thumb-2.jpg" alt="portfolio-thumb-2">
-                                </a>
-                            </div>
-                            <div class="col-md-4 col-xs-6 portfolio-item illustrations">
-                                <a class="popup" href="images/portfolio-thumb-6.jpg">
-                                    <span class="project-hover">
-                                        <span>Branding Illustration
-                                        </span>
-                                    </span>
-                                    <img src="images/portfolio-thumb-6.jpg" alt="portfolio-thumb-6">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- END ARTIST ALLEY -->

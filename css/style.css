@@ -824,8 +824,8 @@ footer p {
 }
 .contact form input, .contact form textarea {
     border-radius: 0;
-    background: rgba(0, 0, 0, .07);
-    color: #85939b;
+    background: rgba( 255, 255, 255, .07);
+    color: #FFF;
     border:none;
     border-left:1px solid #DDAD02;
     box-shadow: none;
