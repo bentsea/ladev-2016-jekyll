@@ -86,7 +86,7 @@ description: LouisiANIME is a 3 day anime convention on May 15-17, 2015 in Lafay
                         <p>Registration is closed right now while we finalize our dates for 2016. Check back later, or keep an eye on our <a href="#blog">blog</a> or <a href="https://www.facebook.com/louisianime">Facebook</a> page for announcements. We'll be ready for you to register before you know it! For now, check out these awesome pictures rom <strong>LouisiANIME 2015</strong>, filled with guests, cosplay, and fun times. If you have any pictures you took and you'd like to share them, <a href="mailto:{{ site.email }}">email us</a> and include them as an attachment.</p>
                     </div>
                     <div class="col-md-12">
-                        <h3 class="portfolioFilter text-center">WE DO WORK ABOUT <a href="javascript:;" data-filter="websites">WEBSITES</a>, <a href="javascript:;" data-filter="illustrations">ILLUSTRATIONS</a>, <a href="javascript:;" data-filter="photo">PHOTOGRAPHS</a> AND <a href="javascript:;" data-filter="all">EVERYTHING</a>
+                        <h3 class="portfolioFilter text-center">WE DO WORK ABOUT <a href="javascript:;" data-filter="ramada">The Ramada</a>, <a href="javascript:;" data-filter="illustrations">ILLUSTRATIONS</a>, <a href="javascript:;" data-filter="photo">PHOTOGRAPHS</a> AND <a href="javascript:;" data-filter="all">EVERYTHING</a>
                         </h3>
                     </div>
                     <div class="col-md-12 mg-bt-80">
@@ -94,12 +94,12 @@ description: LouisiANIME is a 3 day anime convention on May 15-17, 2015 in Lafay
                         {% for gallery in site.data.galleries %}
                             {% for image in gallery.images %}
                                 <div class="col-md-4 col-xs-6 portfolio-item {{ gallery.id }}">
-                                    <a class="popup" href="{{ gallery.imagefolder }}/{{ image.name }}" title="{{ image.text }}">
+                                    <a class="popup" href="{{ gallery.imagefolder }}/{{ image.name }}.png" title="{{ gallery.description }}">
                                         <span class="project-hover">
                                             <span>{{ image.text }}
                                             </span>
                                         </span>
-                                        <img src="{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ image.text }}">
+                                        <img src="{{ gallery.imagefolder }}/thumb_{{ image.name }}.jpg" alt="{{ gallery.description }}">
                                     </a>
                                 </div>
                             {% endfor %}

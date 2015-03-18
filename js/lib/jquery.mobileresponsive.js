@@ -2,8 +2,8 @@
 (function($) {
     $.fn.mobileResponsive = function() {
         var target = $(this);
-        var resXsmall = 480; // Extra small screen / phone
-        var resSmall = 480; // Small screen / tablet
+        var resXsmall = 600; // Extra small screen / phone
+        var resSmall = 600; // Small screen / tablet
         var resMedium = 1263; // Medium screen / desktop
         var resLarge = 1600; // Large screen / wide desktop
         var width = $(window).width();

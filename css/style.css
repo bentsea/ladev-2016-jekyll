@@ -1211,6 +1211,12 @@ footer p {
     background: transparent;
     padding:0;
 }
+.dpXsmall #home{
+    display: none;
+}
+.dpXsmall #container section {
+    padding-top: 25%;
+}
 .dpXsmall .post .post-title h1 {
     font-size: 20px;
     line-height: 27px;
