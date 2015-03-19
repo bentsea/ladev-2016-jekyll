@@ -200,10 +200,10 @@ footer p {
     padding: 60px;
 }
 #container section {
-    background: #3333FF;
+    background: #CCCCFF;
 }
 #container section.odd {
-    background: #2929CF;
+    background: #007BA7;
 }
 .mg-bt-80 {
     margin-bottom: 80px;
