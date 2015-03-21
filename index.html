@@ -91,19 +91,7 @@ description: LouisiANIME is a 3 day anime convention on May 15-17, 2015 in Lafay
                     </div>
                     <div class="col-md-12 mg-bt-80">
                         <div class="row portfolioContainer  text-center">
-                        {% for gallery in site.data.galleries %}
-                            {% for image in gallery.images %}
-                                <div class="col-md-4 col-xs-6 portfolio-item {{ gallery.id }}">
-                                    <a class="popup" href="{{ gallery.imagefolder }}/{{ image.name }}.png" title="{{ gallery.description }}">
-                                        <span class="project-hover">
-                                            <span>{{ image.text }}
-                                            </span>
-                                        </span>
-                                        <img src="{{ gallery.imagefolder }}/thumb_{{ image.name }}.jpg" alt="{{ gallery.description }}">
-                                    </a>
-                                </div>
-                            {% endfor %}
-                        {% endfor %}
+                        {% image_set images/gallery/gallery1 id="ramada" text="Picture from the Ramada." description="Gallery of pictures of fun at the Ramada Conference center in Lafayette." %}
                         </div>
                     </div>
                 </div>
