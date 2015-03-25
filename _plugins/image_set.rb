@@ -66,7 +66,7 @@ module Jekyll
         src = File.join('/', @path, file)
         tsrc = File.join('/', @path[0..-1] + "_thumbs", file)[0..-4] + "jpg"
         source += "<div class='col-md-4 col-xs-6 portfolio-item #{@galleryid}'>\n"
-        source += "<a class='popup' href='#{src}' title='#{@imagetext}'>\n"
+        source += "<a data-lightbox='#{@galleryid}' href='#{src}' title='#{@imagetext}'>\n"
         source += "<span class='project-hover'>\n"
         source += "<span>#{@gallerydescription}\n"
         source += "</span>\n"
