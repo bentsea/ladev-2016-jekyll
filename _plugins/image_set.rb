@@ -54,7 +54,7 @@ module Jekyll
     def render(context)
       # Get the full path to the dir
       # Include a filter for JPG and PNG images
-      full_path = File.join(context.registers[:site].config['source'], @path, "*.{jpg,jpeg,JPG,JPEG,png,PNG}")
+      full_path = File.join(context.registers[:site].config['source'], @path, "*.{jpg,jpeg,png}")
       ## generate thumb path
 
       # Start building tags
