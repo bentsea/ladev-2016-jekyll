@@ -184,9 +184,9 @@ description: LouisiANIME is a 3 day anime convention on May 15-17, 2015 in Lafay
                 <div class="row">
                     {% for post in site.posts limit:5 %}
                     <article class="col-md-4 col-sm-6">
-                        <figure class="blog-thumb">
+                        <a href="{{ post.url }}"><figure class="blog-thumb">
                             <img src="{% if post.image %}{{ post.image }}{% else %}/images/carousel/carousel1.jpg{% endif %}" alt="{{ post.description }}" {% if post.description %}title="{{ post.description }}"{% endif %}>
-                        </figure>
+                        </figure></a>
                         <div class="post-area">
                             <a href="{{ post.url }}">
                                 <h4>{{ post.title }}</h4>
