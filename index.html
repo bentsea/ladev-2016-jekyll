@@ -71,34 +71,9 @@ description: LouisiANIME is a 3 day anime convention on May 15-17, 2015 in Lafay
                 </div>
                 <!-- End of Superslide -->
             </section>
-            <!-- END HOME -->
-            <!-- BEGIN ARTIST ALLEY -->
-            <section id="registration" class="portfolio">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="header-content">
-                            <h2>Registration</h2>
-                            <h3>We're getting ready for <a href="javascript:;">2016</a>.
-                            </h3>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mg-bt-80">
-                        <p>Registration is closed right now while we finalize our dates for 2016. Check back later, or keep an eye on our <a href="#blog">blog</a> or <a href="https://www.facebook.com/louisianime">Facebook</a> page for announcements. We'll be ready for you to register before you know it! For now, check out these awesome pictures rom <strong>LouisiANIME 2015</strong>, filled with guests, cosplay, and fun times. If you have any pictures you took and you'd like to share them, <a href="mailto:{{ site.email }}">email us</a> and include them as an attachment.</p>
-                    </div>
-                    <div class="col-md-12">
-                        <h3 class="portfolioFilter text-center">WE DO WORK ABOUT <a href="javascript:;" data-filter="ramada">The Ramada</a>, <a href="javascript:;" data-filter="cosplay">Cosplay</a>, <a href="javascript:;" data-filter="photo">PHOTOGRAPHS</a> AND <a href="javascript:;" data-filter="all">EVERYTHING</a>
-                        </h3>
-                    </div>
-                    <div class="col-md-12 mg-bt-80">
-                        <div class="row portfolioContainer  text-center">
-                        {% image_set images/gallery/gallery1 id="ramada cosplay" text="Picture from the Ramada." description="Pictures from the Ramada Conference center in Lafayette." %}
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- END ARTIST ALLEY -->
+            <!-- END HOME -->            
             <!-- BEGIN SERVICES -->
-            <section id="guests" class="services odd">
+            <section id="guests" class="services">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="header-content">
@@ -168,6 +143,31 @@ description: LouisiANIME is a 3 day anime convention on May 15-17, 2015 in Lafay
                 </div>
             </section>
             <!-- END SERVICES -->
+            <!-- BEGIN ARTIST ALLEY -->
+            <section id="registration" class="portfolio odd">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="header-content">
+                            <h2>Registration</h2>
+                            <h3>We're getting ready for <a href="javascript:;">2016</a>.
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mg-bt-80">
+                        <p>Registration is closed right now while we finalize our dates for 2016. Check back later, or keep an eye on our <a href="#blog">blog</a> or <a href="https://www.facebook.com/louisianime">Facebook</a> page for announcements. We'll be ready for you to register before you know it! For now, check out these awesome pictures rom <strong>LouisiANIME 2015</strong>, filled with guests, cosplay, and fun times. If you have any pictures you took and you'd like to share them, <a href="mailto:{{ site.email }}">email us</a> and include them as an attachment.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <h3 class="portfolioFilter text-center">WE DO WORK ABOUT <a href="javascript:;" data-filter="ramada">The Ramada</a>, <a href="javascript:;" data-filter="cosplay">Cosplay</a>, <a href="javascript:;" data-filter="photo">PHOTOGRAPHS</a> AND <a href="javascript:;" data-filter="all">EVERYTHING</a>
+                        </h3>
+                    </div>
+                    <div class="col-md-12 mg-bt-80">
+                        <div class="row portfolioContainer  text-center">
+                        {% image_set images/gallery/gallery1 id="ramada cosplay" text="Picture from the Ramada." description="Pictures from the Ramada Conference center in Lafayette." %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END ARTIST ALLEY -->
             <!-- BEGIN BLOG -->
             <section id="blog-front" class="blog-front">
                 <div class="row">
@@ -198,9 +198,11 @@ description: LouisiANIME is a 3 day anime convention on May 15-17, 2015 in Lafay
                     </article>
                     {% endfor %}
                     <article class="col-md-4 col-sm-6">
-                        <figure class="blog-thumb">
-                            <img src="/images/carousel/carousel1.jpg">
-                        </figure>
+                        <a href="/blog">
+                            <figure class="blog-thumb">
+                                <img src="/images/carousel/carousel1.jpg">
+                            </figure>
+                        </a>
                         <div class="post-area">
                             <a href="/blog">
                                 <h4>Archive</h4>

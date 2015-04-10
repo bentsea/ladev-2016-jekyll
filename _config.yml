@@ -15,5 +15,5 @@ permalink: pretty
 highlighter: rouge
 encoding: utf-8
 
-paginate: 30
-paginate_path: "/blog/page:num"
+paginate: 9
+paginate_path: "/blog/page:num/"

@@ -1,11 +1,10 @@
 ---
-layout: page
+layout: blog
 title: News
 description: Check here for all of our archived news posts to see everything we've been up to!
 ---
 
             <!-- BEGIN BLOG -->
-            <section id="blog-front" class="blog-front">
                 <div class="row">
                     <div class="col-md-12 mg-bt-80">
                         <div class="header-content">
@@ -18,11 +17,13 @@ description: Check here for all of our archived news posts to see everything we'
                     </div>
                 </div>
                 <div class="row">
-                    {% for post in site.posts %}
+                    {% for post in paginator.posts %}
                     <article class="col-md-4 col-sm-6">
-                        <figure class="blog-thumb">
+                        <a href="{{ post.url }}">
+                            <figure class="blog-thumb">
                             <img src="{% if post.image %}{{ post.image }}{% else %}/images/carousel/carousel1.jpg{% endif %}" alt="{{ post.description }}" {% if post.description %}title="{{ post.description }}"{% endif %}>
-                        </figure>
+                            </figure>
+                        </a>
                         <div class="post-area">
                             <a href="{{ post.url }}">
                                 <h4>{{ post.title }}</h4>
@@ -34,5 +35,4 @@ description: Check here for all of our archived news posts to see everything we'
                     </article>
                     {% endfor %}
                 </div>
-            </section>
             <!-- END BLOG -->

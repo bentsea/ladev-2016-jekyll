@@ -1227,6 +1227,9 @@ footer p {
     margin-bottom: 15px;
     margin-top: 10px;
 }
+.dpXsmall .medium{
+    display: none;
+}
 .dpSmall .media figure.pull-left, .dpXsmall .media figure.pull-left {
     float: none !important;
     padding-bottom: 20px;
@@ -1295,6 +1298,9 @@ footer p {
     margin: 10px 0 20px;
     position: relative;
     line-height: 70px;
+}
+.dpSmall .medium{
+    display: none;
 }
 .resMedium #container section.blog {
   padding-top: 25px;
@@ -1593,12 +1599,12 @@ form .form-control:focus, form textarea:focus {
     width: 55px;
     font-family:'Open Sans', sans-serif;
     font-size: 16px;
-    color: #85939b;
+    color: darkblue;
     height: 55px;
     margin-right: 10px;
     margin-bottom: 8px;
     border-radius: 50%;
-    background: #1E2226;
+    background: skyblue;
     border:none;
     text-align: center;
     line-height: 55px;
@@ -1615,6 +1621,8 @@ form .form-control:focus, form textarea:focus {
     color: #FFF;
 }
 .pagination li.active a:hover {
+    color: #DDAD02;
+    background: darkblue;
     pointer-event:none;
     transform: none;
     -ms-transform: none;
@@ -1626,7 +1634,7 @@ form .form-control:focus, form textarea:focus {
     -moz-transform: none;
 }
 .pagination li.active a {
-    color: #FFF;
+    color: darkblue;
     background: #DDAD02;
 }
 .pagination>li:last-child>a, .pagination>li:last-child>span,.pagination>li:first-child>a, .pagination>li:first-child>span{

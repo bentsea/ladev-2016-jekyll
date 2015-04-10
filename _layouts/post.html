@@ -13,6 +13,79 @@
 
             <!-- BEGIN BLOG -->
             <section id="blog" class="blog">
+                <!-- Begin Post Number Navigation -->
+                <div class="row">
+                  {% assign i = 0 %}
+                  {% for post in site.posts %}
+                    {% assign i = i | plus: 1 %}
+                    {% if post.url == page.url %}
+                    {% assign min_post = i | minus: 4 %}
+                    {% assign max_post = i | plus: 2 %}
+                    {% endif %}
+                    {% assign begin_navlinks = i | minus: 7 %}
+                  {% endfor %}
+                  {% if page.next %}
+                    <div class="col-lg-1">
+                        <ul class="pagination">
+                            <li><a href="{{ page.next.url }}">«</a></li>
+                        </ul>    
+                    </div>
+                  {% else %}
+                        <div class="col-lg-1"></div>
+                  {% endif %}
+
+                  {% assign i = 0 %}
+                  {% for post in site.posts %}
+                    {% if i >= begin_navlinks and i < min_post %}
+                        {% assign i = i | plus: 1 %}
+                    {% capture l %}{{ i }}{% endcapture %}
+                    <div class="col-lg-1 medium">
+                        <ul class="pagination">
+                            <li><a href="{{ post.url }}">{{ l }}</a></li>
+                        </ul>    
+                    </div>
+                    {% elsif i > max_post and i < 7 %}
+                        {% assign i = i | plus: 1 %}
+                    {% capture l %}{{ i }}{% endcapture %}
+                    <div class="col-lg-1 medium">
+                        <ul class="pagination">
+                            <li><a href="{{ post.url }}">{{ l }}</a></li>
+                        </ul>    
+                    </div>
+                    {% elsif i < min_post %}
+                    {% assign i = i | plus: 1 %}
+                    {% elsif i > max_post %}
+                    {% assign i = i | plus: 1 %}
+                    {% elsif page.url == post.url %}
+                    {% assign i = i | plus: 1 %}
+                    {% capture l %}{{ i }}{% endcapture %}
+                    <div class="col-lg-1">
+                        <ul class="pagination">
+                            <li class="active"><a href="javascript:;">{{ l }}</a></li>
+                        </ul>    
+                    </div>
+                    {% else %}
+                    {% assign i = i | plus: 1 %}
+                    {% capture l %}{{ i }}{% endcapture %}
+                    <div class="col-lg-1 medium">
+                        <ul class="pagination">
+                            <li><a href="{{ post.url }}">{{ l }}</a></li>
+                        </ul>    
+                    </div>
+                    {% endif %}
+                  {% endfor %}
+
+                  {% if page.previous %}
+                    <div class="col-lg-1">
+                        <ul class="pagination">
+                            <li><a href="{{ page.previous.url }}">»</a></li>
+                        </ul>
+                    </div>
+                  {% else %}
+                        <div class="col-lg-1"></div>
+                  {% endif %}
+                </div>
+                <!-- End Post Number Navigation -->
                 <div class="row">
                     <div class="col-md-9">
                         <div id="primary" class="row">
@@ -51,7 +124,6 @@
                 </div>
             </section>
             <!-- END BLOG -->
-            {% include contact.html %}
         </div>
     </div>
     {% include footer.html %}
