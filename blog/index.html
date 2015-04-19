@@ -1,19 +1,14 @@
 ---
 layout: blog
 title: News
-description: Check here for all of our archived news posts to see everything we've been up to!
+description: Check here for all of our archived news posts to see everything we have been up to!
 ---
 
             <!-- BEGIN BLOG -->
                 <div class="row">
                     <div class="col-md-12 mg-bt-80">
                         <div class="header-content">
-                            <h2>Blog</h2>
-                            <h3>We do writing <a href="blog.html">news</a> daily.
-                            </h3>
-                        </div>
-                        <p>Too cultivated use solicitude frequently. Dashwood <a href="javascript:;">likewise</a> up consider continue entrance ladyship oh. Wrong guest given purse power is no. Friendship to
-                            <strong>connection</strong>&nbsp; an am considered difficulty. Country met pursuit lasting moments why calling certain the. Middletons boisterous our way understood law.</p>
+                            <h2>News Archive</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -29,8 +24,8 @@ description: Check here for all of our archived news posts to see everything we'
                                 <h4>{{ post.title }}</h4>
                             </a>
                             <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-                            <p class="post-content">{{post.content|strip_html|truncatewords:30}} [...]</p>
-                            <a class="btn btn-dark small" href="{{ post.url }}">Read More</a>
+                            <p class="post-content">{{post.content|strip_html|truncate:190}} </p>
+                            <a class="btn btn-dark" href="{{ post.url }}">Read More</a>
                         </div>
                     </article>
                     {% endfor %}

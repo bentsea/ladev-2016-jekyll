@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Announcing Cosplay and Gameshow MC Queen D!"
+title:  "Announcing  Queen D!"
 date:   2015-04-02 08:00:00
 description: Welcoming Our Emcee for 2015, Queen D!
 image: /images/meta/wide_queendbio.png

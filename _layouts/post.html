@@ -19,23 +19,32 @@
                   {% for post in site.posts %}
                     {% assign i = i | plus: 1 %}
                     {% if post.url == page.url %}
-                    {% assign min_post = i | minus: 4 %}
-                    {% assign max_post = i | plus: 2 %}
+                    {% assign min_post = i | minus: 3 %}
+                    {% assign max_post = i | plus: 1 %}
                     {% endif %}
-                    {% assign begin_navlinks = i | minus: 7 %}
+                    {% assign begin_navlinks = i | minus: 5 %}
+                    {% assign end_of_posts = i %}
                   {% endfor %}
+
+                  {% assign i = 0 %}
+                  {% for post in site.posts %}
+                  {% if i == 0 %}
                   {% if page.next %}
-                    <div class="col-lg-1">
+                    <div class="col-lg-1 medium">
                         <ul class="pagination">
-                            <li><a href="{{ page.next.url }}">«</a></li>
+                            <li><a href="{{ post.url }}"><span class="glyphicon glyphicon-fast-backward"></span></a></li>
+                        </ul>    
+                    </div>
+                    <div class="col-lg-1 medium">
+                        <ul class="pagination">
+                            <li><a href="{{ page.next.url }}"><span class="glyphicon glyphicon-step-backward"></span></a></li>
                         </ul>    
                     </div>
                   {% else %}
                         <div class="col-lg-1"></div>
+                        <div class="col-lg-1"></div>
                   {% endif %}
-
-                  {% assign i = 0 %}
-                  {% for post in site.posts %}
+                  {% endif %}
                     {% if i >= begin_navlinks and i < min_post %}
                         {% assign i = i | plus: 1 %}
                     {% capture l %}{{ i }}{% endcapture %}
@@ -44,7 +53,7 @@
                             <li><a href="{{ post.url }}">{{ l }}</a></li>
                         </ul>    
                     </div>
-                    {% elsif i > max_post and i < 7 %}
+                    {% elsif i > max_post and i < 5 %}
                         {% assign i = i | plus: 1 %}
                     {% capture l %}{{ i }}{% endcapture %}
                     <div class="col-lg-1 medium">
@@ -61,7 +70,13 @@
                     {% capture l %}{{ i }}{% endcapture %}
                     <div class="col-lg-1">
                         <ul class="pagination">
+                    {% if page.next %}
+                            <li class="small"><a href="{{ page.next.url }}"><span class="glyphicon glyphicon-step-backward"></span></a></li>
+                    {% endif %}
                             <li class="active"><a href="javascript:;">{{ l }}</a></li>
+                    {% if page.previous %}
+                            <li class="small"><a href="{{ page.previous.url }}"><span class="glyphicon glyphicon-step-forward"></span></a></li>
+                    {% endif %}
                         </ul>    
                     </div>
                     {% else %}
@@ -73,17 +88,25 @@
                         </ul>    
                     </div>
                     {% endif %}
-                  {% endfor %}
-
+                  {% if i == end_of_posts %}
                   {% if page.previous %}
-                    <div class="col-lg-1">
+                    <div class="col-lg-1 medium">
                         <ul class="pagination">
-                            <li><a href="{{ page.previous.url }}">»</a></li>
-                        </ul>
+                            <li><a href="{{ page.previous.url }}"><span class="glyphicon glyphicon-step-forward"></span></a></li>
+                        </ul>    
+                    </div>
+                    <div class="col-lg-1 medium">
+                        <ul class="pagination">
+                            <li><a href="{{ post.url }}"><span class="glyphicon glyphicon-fast-forward"></span></a></li>
+                        </ul>    
                     </div>
                   {% else %}
                         <div class="col-lg-1"></div>
+                        <div class="col-lg-1"></div>
                   {% endif %}
+                  {% endif %}
+                  {% endfor %}
+
                 </div>
                 <!-- End Post Number Navigation -->
                 <div class="row">

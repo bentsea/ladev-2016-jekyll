@@ -14,6 +14,24 @@ Text Domain: Garis Themes
  @import url(http://fonts.googleapis.com/css?family=Raleway:200,300,400,500);
  @import url(http://fonts.googleapis.com/css?family=Open+Sans:100,300,700,800);
 
+ /* Placeholder Text */
+
+*::-webkit-input-placeholder {
+    color: darkblue;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: darkblue;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: darkblue;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: darkblue;
+}
+
 /*
     [ TYPHOGRAPY ]
 */
@@ -812,7 +830,7 @@ footer p {
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-bottom-color: #1E2226;
+    border-bottom-color: blue;
     border-width: 20px;
     margin-left: -20px;
 }
@@ -824,7 +842,7 @@ footer p {
 }
 .contact form input, .contact form textarea {
     border-radius: 0;
-    background: rgba( 255, 255, 255, .07);
+    background: rgba( 255, 255, 255, .1);
     color: #FFF;
     border:none;
     border-left:1px solid #DDAD02;
@@ -1302,15 +1320,21 @@ footer p {
 .dpSmall .medium{
     display: none;
 }
+.dpMedium .small{
+    display: none;
+}
+.dpLarge .small{
+    display: none;
+}
 .resMedium #container section.blog {
   padding-top: 25px;
   padding-bottom: 100px;
 }
 .widgetbar .widget .search-widget input::-webkit-input-placeholder {
-    color: #333;
+    color: darkblue;
 }
 .widgetbar .widget .search-widget::-moz-placeholder {
-    color: #333;
+    color: darkblue;
 }
 /*
 -------------------------
