@@ -513,7 +513,8 @@ footer p {
     text-align: center;
 }
 .portfolioFilter a.active {
-    text-decoration: line-through;
+    text-decoration: underline;
+    font-weight: bold;
     color: #FFF;
 }
 .portfolio-item {
