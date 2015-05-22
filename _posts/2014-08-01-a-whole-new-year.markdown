@@ -2,6 +2,7 @@
 layout: post
 title:  "A Whole New Year!"
 date: 2014-08-01 08:00:00
+description: Announcing dates, hotel, and registration for 2015!
 category: news
 ---
 

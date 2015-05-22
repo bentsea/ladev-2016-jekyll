@@ -5,7 +5,7 @@ description: Announcing Josh Grelle for LouisiANIME 2015!
 date:   2015-03-08 08:00:00
 image: /images/meta/grelle_joshwide.png
 category: guests_2015
-thumbnail: images/guests/headshot_grelle_josh_thumbnail.jpg
+thumbnail: /images/guests/headshot_grelle_josh_thumbnail.jpg
 ---
 
 

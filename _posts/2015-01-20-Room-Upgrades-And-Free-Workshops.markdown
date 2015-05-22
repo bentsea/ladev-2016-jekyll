@@ -2,6 +2,7 @@
 layout: post
 title:  "Room Upgrades and Free Workshops"
 date:   2015-01-20 08:00:00
+description: Announcing a new contest for 2015 room upgrade!
 category: news
 ---
 

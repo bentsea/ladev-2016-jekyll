@@ -2,6 +2,7 @@
 layout: post
 title:  "Great News For Tea Tasters!"
 date: 2015-02-28 08:00:00
+description: Announcing Adagio as a sponsor for 2015!
 category: news
 ---
 

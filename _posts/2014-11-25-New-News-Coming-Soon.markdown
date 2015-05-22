@@ -2,6 +2,7 @@
 layout: post
 title:  "New News Coming Soon!"
 date: 2014-11-25 08:00:00
+desscription: Winding up for 2015! Tons of announcements coming soon.
 category: news
 ---
 

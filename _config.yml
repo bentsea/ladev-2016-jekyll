@@ -12,7 +12,7 @@ facebook_username: LouisiANIME
 # Build settings
 markdown: kramdown
 permalink: pretty
-highlighter: rouge
+highlighter: pygments
 encoding: utf-8
 
 paginate: 9
