@@ -35,9 +35,9 @@ description: The LouisiANIME convention is a 3 day event for all ages in Lafayet
                         <li>
                             <div class="slide-text">
                                 <h2>LouisiANIME 2016</h2>
-                                <span>Check out our <a href="#guests">guests and programming!</a></span>
+                                <span>Check out our <a class="sscroll" href="#guests">guests and programming!</a></span>
                                 <br/>
-                                <a href="#guests"><span class="glyphicon glyphicon-chevron-down"></span></a>
+                                <a class="sscroll" href="#guests"><span class="glyphicon glyphicon-chevron-down"></span></a>
                             </div>
                             <div class="slide-filter"></div>
                             <div style="background-image: url('images/carousel/carousel1.png');" class="bg-parallax parallaxize"></div>
@@ -106,7 +106,7 @@ description: The LouisiANIME convention is a 3 day event for all ages in Lafayet
                                     <div class="col-xs-12 col-sm-9">
                                         <div class="services-desc" style="padding-left: 5px;">
                                             <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
-                                            <p>&nbsp;&nbsp;&nbsp;{{post.content|strip_html|truncate:140}}<a href="{{ post.url }}">Read More</a></p>
+                                            <p>&nbsp;&nbsp;&nbsp;{{post.content|strip_html|truncate:130}}<a href="{{ post.url }}">Read More</a></p>
                                         </div></a>
                                     </div>
                                 </div>
@@ -274,7 +274,7 @@ description: The LouisiANIME convention is a 3 day event for all ages in Lafayet
                                 <h4>{{ post.title }}</h4>
                             </a>
                             <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-                            <p class="post-content">{{post.content|strip_html|truncate:190}}</p>
+                            <p class="post-content">{{post.content|strip_html|truncate:200}}</p>
                             <a class="btn btn-dark" href="{{ post.url }}">Read More</a>
                         </div>
                     </article>
