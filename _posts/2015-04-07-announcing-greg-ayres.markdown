@@ -13,8 +13,6 @@ category: guests_2015
 <a name="GregAyres"></a>
 <a href="/images/guests/greg_ayres.jpg" data-lightbox="guests"><img class="img-responsive" src="/images/guests/greg_ayres.jpg" alt="Greg Ayres" width="300" height="600" style="border:5px solid yellow; float:left; margin:10px;"></a>
 
-<h3>Greg Ayres</h3>
-
 <p>Greg Ayres ​has spent the last eleven years working in an industry he had admired for years as a fan. With over 200 credits to his name, this fan­boy has managed to get to play a variety of characters that are almost as colorful as his hair. He was thrilled to be a part of the Toonami re­launch last summer in the roles of Ganta Igarashi in Deadman Wonderland and Heihachi Hayashida in Samurai 7. He is even more thrilled to follow that up the following summer’s thriller Another as Kouichi Sakakibara.</p>
 
 <p>His most recent roles include Satoru Asahina in From the New World, Kenji Nakanishi in Say I Love You, Sion in No. 6, Heisuke Toudou in Hakuoki, Tommyrod in Toriko, Arikawa in This Boy Can Fight Aliens, Tomoki Sakurai in Heaven’s Lost Property, and Volken in the Book of Bantorra. Some of his all­time favorite roles include Son Goku in Saiyuki, Chrono in Chrono Crusade, Kaoru Hitachiin in Ouran High School Host Club, Youhei Sunohara in Clannad, Yuki in The Wallflower, Leo in Ghost Stories, Satoshi Hiwatari in DNAngel, Kaworu Nagisa in the Director’s Cut of Neon Genesis Evangelion, and Negi Springfield in Negima. He’s really excited to slash into 2015 as Nagisa Hazuki in the upcoming dub of Free: Eternal Summer.</p>

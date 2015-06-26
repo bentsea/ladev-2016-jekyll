@@ -11,8 +11,6 @@ category: guests_2015
 <a name="EricCherry"></a>
 <a href="/images/guests/eric_cherry.jpg" data-lightbox="guests"><img class="img-responsive" src="/images/guests/eric_cherry.jpg" alt="Eric Cherry" width="300" height="600" style="border:5px solid yellow; float:left; margin:10px;"></a>
 
-<h3>Eric Cherry</h3>
-
 <p>We are very excited to welcome back Eric Cherry to LouisiANIME!</p>
 
 <p>Eric, or “Cherry” as many of us know him as, has been a major part of the anime community in Central Texas since the beginning of the new millenium. As a stage actor out of high school, he quickly became involved in multiple cosplay performance groups in North Texas, winning multiple events at A­Kon and Animefest in Dallas. This passion for anime and a gregarious personality lead to his meeting with and auditioning at FUNimation Entertainment.</p>

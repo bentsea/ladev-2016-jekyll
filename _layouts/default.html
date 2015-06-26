@@ -14,8 +14,11 @@
       {% include header.html %}
 
       <div id="container">
-        {{ content }}
-        {% include contact.html %}
+        <div class="wrapper">
+          {{ content }}
+          {% include contact.html %}
+          <div class="push"></div>
+        </div>
         {% include footer.html %}
       </div>
     </div>

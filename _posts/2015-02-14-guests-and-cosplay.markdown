@@ -28,12 +28,12 @@ If you have any questions, feel free to email us, or message us on Facebook, and
 
 <div class="imageblock" style="float: right 50%">
     <div>
-        <a href="/img/cosplay/cosplayteam1.png" data-lightbox="Guests and Cosplay"><img alt="" src="/images/cosplay/cosplayteam1.png" style="height:33%; width:33%" /></a>
+        <a href="/images/cosplay/cosplayteam1.png" data-lightbox="Guests and Cosplay"><img alt="" src="/images/cosplay/cosplayteam1.png" style="height:33%; width:33%" /></a>
     </div>
     <div>
-        <a href="/img/guests/Headshot_Clifford.jpg" data-lightbox="Guests and Cosplay"><img alt="" src="/images/guests/Headshot_Clifford.jpg" style="height:33%; width:33%" /></a>
+        <a href="/images/guests/headshot_clifford.jpg" data-lightbox="Guests and Cosplay"><img alt="" src="/images/guests/headshot_clifford.jpg" style="height:33%; width:33%" /></a>
     </div>
     <div>
-        <a href="/img/guests/Headshot_Fee.jpg" data-lightbox="Guests and Cosplay"><img alt="" src="/images/guests/Headshot_Fee.jpg" style="height:33%; width:33%" /></a>
+        <a href="/images/guests/headshot_fee.jpg" data-lightbox="Guests and Cosplay"><img alt="" src="/images/guests/headshot_fee.jpg" style="height:33%; width:33%" /></a>
     </div>
 </div>

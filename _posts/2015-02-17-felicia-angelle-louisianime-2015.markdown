@@ -12,9 +12,6 @@ thumbnail: images/guests/headshot_fee_thumbnail.jpg
 	<a name="FeleciaAngelle"></a>
 	<a href="/images/guests/headshot_fee.jpg" data-lightbox="guests"><img class="img-responsive" src="/images/guests/headshot_fee.jpg" alt="Clifford Chapin" width="300" height="600" style="border:5px solid yellow; float:left; margin:10px;"></a>
 
-
-	<h3>Felecia Angelle</h3>
-
 	Felecia Angelle is a voice actress in Dallas, TX by way of Lafayette, LA. Her hobbies include
 	reading, playing videogames (poorly), and trying really hard to get someone else to write her
 	bio. You can hear her voice all up in your anime, as well as coming through the TV to sell

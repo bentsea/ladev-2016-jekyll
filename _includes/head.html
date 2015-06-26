@@ -20,7 +20,6 @@
     {% if page.image6 %}<meta property="og:image" content="{{ site.url}}{{ page.image6 }}">{% endif %}
     <meta property="og:description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link href="/css/main.css" rel="stylesheet">
 
     <!-- Lightbox CSS -->
     <link href="/css/lightbox.css" rel="stylesheet" />
@@ -46,3 +45,6 @@
       <script src="/js/html5shiv.js"></script>
       <script src="/js/respond.min.js"></script>
     <![endif]-->
+
+
+    <link href="/css/childtheme.css" rel="stylesheet">

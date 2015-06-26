@@ -12,9 +12,6 @@ thumbnail: images/guests/headshot_clifford_thumbnail.jpg
 <a name="CliffordChapin"></a>
 <a href="/images/guests/headshot_clifford.jpg" data-lightbox="guests"><img class="img-responsive" src="/images/guests/headshot_clifford.jpg" alt="Clifford Chapin" width="300" height="600" style="border:5px solid yellow; float:left; margin:10px;"></a>
 
-
-<h3>Clifford Chapin</h3>
-
 Clifford is a newbie in the anime voice over world with his breakout role being Keita Tsuwabuki
 in Good Luck Girl! Binbogami­Ga! Since then, Clifford has gone on to voice roles across the
 many anime worlds, including Kaito Yashio in third installment of the Science Adventure series

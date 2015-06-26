@@ -1,0 +1,58 @@
+/* This code makes the columns align correctly */
+.col-md-4:nth-child(3n+1) {
+	clear: left;
+}
+
+
+/* Styles for Whole Site */
+
+::-webkit-input-placeholder { /* For WebKit browsers */
+    color:    red;
+                font-family:Helvetica Neue;
+                font-weight:bold;
+}
+:-moz-placeholder { /* For Mozilla Firefox 4 to 18 */
+    color:    red;
+                font-family:Helvetica Neue;
+                font-weight:bold;
+}
+::-moz-placeholder { /* For Mozilla Firefox 19+ */
+    color:    red;
+                font-family:Helvetica Neue;
+                font-weight:bold;
+}
+:-ms-input-placeholder { /* For Internet Explorer 10+ */
+    color:    red;
+                font-family:Helvetica Neue;
+                font-weight:bold;
+}
+
+a {
+	color: yellow;
+};
+a:active {
+	color: yellow;
+}
+a:target {
+	color: yellow;
+}
+a:focus {
+	color: yellow;
+}
+
+
+* {
+margin: 0;
+}
+html, body {
+height: 100vh;
+}
+.wrapper {
+min-height: 100vh;
+height: auto !important;
+height: 100vh;
+margin: 0 auto -17em;
+}
+footer, .push {
+height: 17em;
+}

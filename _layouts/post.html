@@ -7,10 +7,7 @@
   	
     <div id="main-wrapper">
            	 {% include header.posts.html %}
-        <div id="container">
-
-
-
+        <div id="container" class="wrapper">
             <!-- BEGIN BLOG -->
             <section id="blog" class="blog">
                 <!-- Begin Post Number Navigation -->
@@ -115,10 +112,10 @@
                             <div class="col-md-12">
                                 <!-- BEGIN ARTICLE -->
                                 <article class="post">
-                                              <header class="post-header">
-            <h1 class="post-title">{{ page.title }}</h1>
-            <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-          </header>
+                                  <header class="post-header">
+                                    <h1 class="post-title">{{ page.title }}</h1>
+                                    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+                                  </header>
                                     <div class="post-content">
                                         {{ content }}
                                     </div>
@@ -148,6 +145,8 @@
             </section>
             <!-- END BLOG -->
         </div>
+
+        <div class="push"></div>
     </div>
     {% include footer.html %}
     {% include navigate.html %}

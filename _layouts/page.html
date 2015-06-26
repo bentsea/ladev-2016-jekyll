@@ -14,7 +14,10 @@
              {% include header.posts.html %}
 
       <div id="container">
-        {{ content }}
+        <div class="wrapper">
+          {{ content }}
+          <div class="push"></div>
+        </div>
         {% include footer.html %}
       </div>
     </div>
