@@ -4,30 +4,30 @@ title: News
 description: Check here for all of our archived news posts to see everything we have been up to!
 ---
 
-            <!-- BEGIN BLOG -->
-                <div class="row">
-                    <div class="col-md-12 mg-bt-80">
-                        <div class="header-content">
-                            <h2>News Archive</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    {% for post in paginator.posts %}
-                    <article class="col-md-4 col-sm-6">
-                        <a href="{{ post.url }}">
-                            <figure class="blog-thumb">
-                            <img src="{% if post.image %}{{ post.image }}{% else %}/images/carousel/carousel1.jpg{% endif %}" alt="{{ post.description }}" {% if post.description %}title="{{ post.description }}"{% endif %}>
-                            </figure>
-                        </a>
-                        <div class="post-area">
-                            <a href="{{ post.url }}">
-                                <h4>{{ post.title }}</h4>
-                            </a>
-                            <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-                            <p class="post-content">{{post.content|strip_html|truncate:185}} </p>
-                            <a class="btn btn-dark" href="{{ post.url }}">Read More</a>
-                        </div>
-                    </article>
-                    {% endfor %}
-                </div>
-            <!-- END BLOG -->
+<!-- BEGIN BLOG -->
+    <div class="row">
+        <div class="col-md-12 mg-bt-80">
+            <div class="header-content">
+                <h2>News Archive</h2>
+        </div>
+    </div>
+    <div class="row">
+        {% for post in paginator.posts %}
+        <article class="col-md-4 col-sm-6">
+            <a href="{{ post.url }}">
+                <figure class="blog-thumb">
+                <img src="{% if post.image %}{{ post.image }}{% else %}/images/carousel/carousel1.jpg{% endif %}" alt="{{ post.description }}" {% if post.description %}title="{{ post.description }}"{% endif %}>
+                </figure>
+            </a>
+            <div class="post-area">
+                <a href="{{ post.url }}">
+                    <h4>{{ post.title }}</h4>
+                </a>
+                <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <p class="post-content">{{post.content|strip_html|truncate:185}} </p>
+                <a class="btn btn-dark" href="{{ post.url }}">Read More</a>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+<!-- END BLOG -->

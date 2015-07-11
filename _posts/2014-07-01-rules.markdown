@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  Convention Rules
-description: LouisiANIME Dealer's Information
+description: LouisiANIME rules for conduct, weapons policy, and dress code. Help keep our con one of the friendliest there is.
 category: information
+permalink: /rules
 ---
 
 ##Dress Code

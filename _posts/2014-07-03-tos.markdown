@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  LouisiANIME Terms of Service
-description: LouisiANIME Dealer's Information
+description: LouisiANIME Terms of Service
 category: information
+permalink: /tos
 ---
 
  Please read these terms and conditions carefully. By attending LouisiANIME you agree to be bound by the terms and conditions below. These terms and conditions are subject to change without notice, from time to time at our sole discretion. We will notify you of amendments to these terms and conditions by posting them to this website. Purchase of membership, Artist Alley table, or Vendor table at LouisiANIME, or volunteering for LouisiANIME in any capacity implies agreement with these term.

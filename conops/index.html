@@ -1,0 +1,103 @@
+---
+layout: page
+title: Convention Operations
+description: Sign up for artist alley, apply to be in our vendor room, volunteer for operations, or volunteer to host panels!
+---
+
+            <!-- BEGIN ARTIST ALLEY -->
+            <section id="artist-alley" class="contact odd">
+                <div class="row">
+                    <div class="col-md-12 mg-bt-80">
+                        <div class="header-content">
+                            <h2>Artist Alley Form</h2>
+                            <h3>Join our Artist Alley!</h3>
+                        </div>
+                        <p>Please read both this product description and our <a href="/tos">terms of service</a> carefully. An Artist Alley table at LouisiANIME comes with 1 table in the Artist Alley and one badge and will be hosted on the floor of the hotel. Up to 2 extra badges may be added for 35$ each for a total of 3 badges. If your form is incorrectly filled out, we will contact the email address on the form and continue to reserve your table for 48 hours for corrected information before releasing the reservation.</p>
+
+                        <p>Upon successful form submission, LouisiANIME will send applicants a PayPal invoice and hold the table reservation for 7 days to allow for payment. After 7 days, if the invoice is unpaid the table reservation will be released. We have 18 tables that we are able to distribute for Artist Alley this year. We look forward to seeing you all in 2015!</p>
+                    </div>
+                    <div class="col-md-12 col-md-8">
+<div class="reformed-form">
+    <form method="post" name="artist_alley_form" id="artist_alley_form" action="/formtools/process.php">
+        <div class="form-group row">
+            <div class="col-md-6">
+                <dt>
+                    <label for="contact_name">Contact Name:</label>
+                </dt>
+                <input type="text" id="contact_name" class="required form-control col-md-6" name="contact_name" />
+            </div>
+            <div class="col-md-6">
+                <dt>
+                    <label for="company_name">Company Name:</label>
+                </dt>
+            <dd><input type="text" class="form-control col-md-6" id="company_name" name="company_name" /></dd>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-md-6">
+                <dt>
+                    <label for="phone_number">Phone Number:</label>
+                </dt>
+            <dd><input type="text" id="phone_number" class="required col-md-6" name="phone_number" value="555-555-5555" /></dd>
+            </div>
+            <div class="col-md-6">
+            <dt>
+                <label for="contact_email">Contact Email:</label>
+            </dt>
+            <dd><input type="text" id="contact_email" class="required  email col-md-6" name="contact_email" /></dd>
+            </div>
+        </div>
+        <dl>
+            <dt>
+                <label for="merchandise">What types of merchandise do you plan to sell?</label>
+            </dt>
+            <dd><textarea id="merchandise" class="required" name="merchandise" rows="5" cols="50">
+</textarea></dd>
+        </dl>
+        <dl>
+            <dt>
+                <label for="special_request">Comments / Special Requests (Please note here if you want multiple tables)</label>
+            </dt>
+            <dd><textarea id="special_request" name="special_request" rows="5" cols="50">
+</textarea></dd>
+        </dl>
+        <dl>
+            <dt>
+                <label for="tos_conset">I have read and agree to the <a href="/tos">LouisiANIME Terms of Service</a></label>
+            </dt>
+            <dd>
+                <ul>
+                    <li><input type="checkbox" class="required" id="tos_conset" name="tos_consent" value="Yes" />
+                        <label>Yes</label>
+                    </li>
+                </ul>
+                        </dd>
+        </dl>
+        <dl>
+            <dt>
+                <label for="badges">How many badges would you like?</label>
+            </dt>
+            <dd>
+                <ul>
+                    <li><input type="radio" id="badges" name="badges" value="1" checked="checked" />
+                        <label>$100: 1 Badge</label>
+                    </li>
+                    <li><input type="radio" id="badges" name="badges" value="2" />
+                        <label>$135: 2 Badges</label>
+                    </li>
+                    <li><input type="radio" id="badges" name="badges" value="3" />
+                        <label>$170: 3 Badges</label>
+                    </li>
+                </ul>
+                        </dd>
+        </dl>
+        <div id="submit_buttons">
+            <button type="reset" class="btn btn-dark big">Reset</button>
+            <button type="submit" class="btn btn-dark big">Submit</button>
+        </div>
+        </form>
+</div>
+                    </div>
+                </div>
+            </section>
+            <!-- END ARTIST ALLEY -->

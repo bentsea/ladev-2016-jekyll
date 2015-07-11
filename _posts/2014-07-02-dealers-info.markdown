@@ -4,6 +4,7 @@ title:  Dealers Room Info
 description: LouisiANIME Dealer's Information
 image: /images/meta/dealers_room.jpeg
 category: information
+permalink: /dealers
 ---
 
 <img src="/images/information/dealers_room.jpeg" alt="dealers room image" class="img-responsive" style="border:5px solid white; margin: 10px; float: right" width="600" height="400"/>
