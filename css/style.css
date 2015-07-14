@@ -850,7 +850,7 @@ footer p {
     box-shadow: none;
 }
 .contact form input {
-    height: 50px;
+    height: 0px;
 }
 .contact form input:focus, .contact form textarea:focus {
     box-shadow: none;

@@ -16,88 +16,130 @@ description: Sign up for artist alley, apply to be in our vendor room, volunteer
 
                         <p>Upon successful form submission, LouisiANIME will send applicants a PayPal invoice and hold the table reservation for 7 days to allow for payment. After 7 days, if the invoice is unpaid the table reservation will be released. We have 18 tables that we are able to distribute for Artist Alley this year. We look forward to seeing you all in 2015!</p>
                     </div>
-                    <div class="col-md-12 col-md-8">
-<div class="reformed-form">
-    <form method="post" name="artist_alley_form" id="artist_alley_form" action="/formtools/process.php">
-        <div class="form-group row">
-            <div class="col-md-6">
-                <dt>
-                    <label for="contact_name">Contact Name:</label>
-                </dt>
-                <input type="text" id="contact_name" class="required form-control col-md-6" name="contact_name" />
-            </div>
-            <div class="col-md-6">
-                <dt>
-                    <label for="company_name">Company Name:</label>
-                </dt>
-            <dd><input type="text" class="form-control col-md-6" id="company_name" name="company_name" /></dd>
-            </div>
-        </div>
-        <div class="form-group row">
-            <div class="col-md-6">
-                <dt>
-                    <label for="phone_number">Phone Number:</label>
-                </dt>
-            <dd><input type="text" id="phone_number" class="required col-md-6" name="phone_number" value="555-555-5555" /></dd>
-            </div>
-            <div class="col-md-6">
-            <dt>
-                <label for="contact_email">Contact Email:</label>
-            </dt>
-            <dd><input type="text" id="contact_email" class="required  email col-md-6" name="contact_email" /></dd>
-            </div>
-        </div>
-        <dl>
-            <dt>
-                <label for="merchandise">What types of merchandise do you plan to sell?</label>
-            </dt>
-            <dd><textarea id="merchandise" class="required" name="merchandise" rows="5" cols="50">
-</textarea></dd>
-        </dl>
-        <dl>
-            <dt>
-                <label for="special_request">Comments / Special Requests (Please note here if you want multiple tables)</label>
-            </dt>
-            <dd><textarea id="special_request" name="special_request" rows="5" cols="50">
-</textarea></dd>
-        </dl>
-        <dl>
-            <dt>
-                <label for="tos_conset">I have read and agree to the <a href="/tos">LouisiANIME Terms of Service</a></label>
-            </dt>
-            <dd>
-                <ul>
-                    <li><input type="checkbox" class="required" id="tos_conset" name="tos_consent" value="Yes" />
-                        <label>Yes</label>
-                    </li>
-                </ul>
-                        </dd>
-        </dl>
-        <dl>
-            <dt>
-                <label for="badges">How many badges would you like?</label>
-            </dt>
-            <dd>
-                <ul>
-                    <li><input type="radio" id="badges" name="badges" value="1" checked="checked" />
-                        <label>$100: 1 Badge</label>
-                    </li>
-                    <li><input type="radio" id="badges" name="badges" value="2" />
-                        <label>$135: 2 Badges</label>
-                    </li>
-                    <li><input type="radio" id="badges" name="badges" value="3" />
-                        <label>$170: 3 Badges</label>
-                    </li>
-                </ul>
-                        </dd>
-        </dl>
-        <div id="submit_buttons">
-            <button type="reset" class="btn btn-dark big">Reset</button>
-            <button type="submit" class="btn btn-dark big">Submit</button>
-        </div>
-        </form>
-</div>
-                    </div>
+                    <!-- HTML Form (wrapped in an isolated Bootstrap 3 div) -->
+                  <div class="row">
+                   <div class="col-md-6 col-sm-6 col-xs-12">
+                    <form method="post">
+                     <div class="form-group" id="div_contact_name">
+                      <label class="control-label requiredField" for="contact_name">
+                       Contact Name
+                       <span class="asteriskField">
+                        *
+                       </span>
+                      </label>
+                      <div class="controls ">
+                       <input class="form-control" id="contact_name" name="contact_name" type="text"/>
+                      </div>
+                     </div>
+                     <div class="form-group" id="div_company_name">
+                      <label class="control-label " for="company_name">
+                       Company Name
+                      </label>
+                      <div class="controls ">
+                       <input class="form-control" id="company_name" name="company_name" type="text"/>
+                      </div>
+                     </div>
+                     <div class="form-group" id="div_tel">
+                      <label class="control-label requiredField" for="tel">
+                       Telephone #
+                       <span class="asteriskField">
+                        *
+                       </span>
+                      </label>
+                      <div class="controls ">
+                       <input class="form-control" id="tel" name="tel" type="text"/>
+                      </div>
+                     </div>
+                     <div class="form-group" id="div_email">
+                      <label class="control-label requiredField" for="email">
+                       Email
+                       <span class="asteriskField">
+                        *
+                       </span>
+                      </label>
+                      <div class="controls ">
+                       <input class="form-control" id="email" name="email" type="text"/>
+                      </div>
+                     </div>
+                     <div class="form-group" id="div_merch">
+                      <label class="control-label requiredField" for="merch">
+                       What types of merchandise do you plan to sell?
+                       <span class="asteriskField">
+                        *
+                       </span>  
+                      </label>
+                      <div class="controls ">
+                       <textarea class="form-control" cols="40" id="merch" name="merch" rows="10"></textarea>
+                      </div>
+                     </div>
+                     <div class="form-group" id="div_special_requests">
+                      <label class="control-label " for="special_requests">
+                       Comments / Special Requests (Please note here if you want multiple tables)
+                      </label>
+                      <div class="controls ">
+                       <textarea class="form-control" cols="40" id="special_requests" name="special_requests" rows="10"></textarea>
+                      </div>
+                     </div>
+                     <div class="form-group" id="div_tos_agreement">
+                      <label class="control-label requiredField" for="tos_agreement_0">
+                       I have read and agree to the
+                       <a href="/tos">
+                        LouisiANIME Terms of Service
+                       </a>
+                       :
+                       <span class="asteriskField">
+                        *
+                       </span>
+                      </label>
+                      <div class="controls ">
+                       <div class="checkbox">
+                        <label class="checkbox">
+                         <input id="id_tos_agreement_1" name="tos_agreement" type="checkbox" value="Yes"/>
+                         Yes
+                        </label>
+                       </div>
+                      </div>
+                     </div>
+                     <div class="form-group" id="div_badges">
+                      <label class="control-label requiredField" for="badges_0">
+                       How many badges would you like?
+                       <span class="asteriskField">
+                        *
+                       </span>
+                      </label>
+                      <div class="controls ">
+                       <div class="radio">
+                        <label class="radio">
+                         <input id="id_badges_1" name="badges" type="radio" value="$100: 1 Badge"/>
+                         $100: 1 Badge
+                        </label>
+                       </div>
+                       <div class="radio">
+                        <label class="radio">
+                         <input id="id_badges_2" name="badges" type="radio" value="$135: 2 Badges"/>
+                         $135: 2 Badges
+                        </label>
+                       </div>
+                       <div class="radio">
+                        <label class="radio">
+                         <input id="id_badges_3" name="badges" type="radio" value="$170: 3 Badges"/>
+                         $170: 3 Badges
+                        </label>
+                       </div>
+                      </div>
+                     </div>
+                     <div class="form-group">
+                      <div>
+                       <input name="_honey" style="display:none" type="text"/>
+                       <button class="btn btn-dark big" name="submit" type="submit">
+                        Submit
+                       </button>
+                      </div>
+                     </div>
+                    </form>
+                   </div>
+                  </div>
+                 </div>
                 </div>
             </section>
             <!-- END ARTIST ALLEY -->

@@ -56,3 +56,17 @@ margin: 0 auto -17em;
 footer, .push {
 height: 17em;
 }
+
+/* Form CSS */
+
+.contact form label {
+    padding-top: 15px;
+}
+
+
+
+
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+    float:none;
+    margin-left: -20px;
+}
