@@ -3,28 +3,39 @@
 	clear: left;
 }
 
+/* This prevents gallery images from being displayed unevenly. */
+.portfolioContainer .col-md-4:nth-child(3n+1) {
+    clear: none;
+}
 
 /* Styles for Whole Site */
 
 ::-webkit-input-placeholder { /* For WebKit browsers */
-    color:    red;
-                font-family:Helvetica Neue;
-                font-weight:bold;
+    color: white;
+    font-family:Helvetica Neue;
+    font-weight:bold;
 }
-:-moz-placeholder { /* For Mozilla Firefox 4 to 18 */
-    color:    red;
-                font-family:Helvetica Neue;
-                font-weight:bold;
+input:-moz-placeholder { /* For Mozilla Firefox 4 to 18 */
+    color: yellow;
+    font-family:Helvetica Neue;
+    font-weight:bold;
 }
-::-moz-placeholder { /* For Mozilla Firefox 19+ */
-    color:    red;
-                font-family:Helvetica Neue;
-                font-weight:bold;
+input::-moz-placeholder { /* For Mozilla Firefox 19+ */
+    color: yellow;
+    font-family:Helvetica Neue;
+    font-weight:bold;
 }
 :-ms-input-placeholder { /* For Internet Explorer 10+ */
-    color:    red;
-                font-family:Helvetica Neue;
-                font-weight:bold;
+    color:    white;
+    font-family:Helvetica Neue;
+    font-weight:bold;
+}
+input, select, textarea{
+    color: white;
+}
+
+textarea:focus, input:focus {
+    color: white;
 }
 
 a {
@@ -57,6 +68,13 @@ footer, .push {
 height: 17em;
 }
 
+.shortpage {
+  padding: 60px;
+  min-height: 100vh;
+  height: auto !important;
+  margin: 0 auto -10em;
+}
+
 /* Form CSS */
 
 .contact form label {
@@ -70,3 +88,35 @@ height: 17em;
     float:none;
     margin-left: -20px;
 }
+
+/* Comparison Chart */
+/* START COMPARISON TABLE STYLES */
+#comparetable {width: 100%; table-layout: fixed; text-align: center; margin: 4em 0; border-collapse: collapse; }
+#comparetable tr {background: transparent!important;}
+#comparetable td,
+#comparetable th {padding: 20px; text-align: center;}
+#comparetable td.rowTitle {text-align: left;}
+.blank {background: none!important; border: none!important;}
+ .goldleaf th {background-color: #ffe34b; font-size: 22px; color: #746200; text-align: center; font-weight: 400; text-shadow: 0 1px 0 #eee2a2; border: 1px solid #ae9a2e;}
+ .goldleaf td {background-color: #f0f1f1; color: black; border: 1px solid #c8d6e2;} 
+  .goldleaf td.rowTitle {font-size: 20px; color: black; border-left: 3px solid #ae9a2e;}
+/* END COMPARISON TABLE STYLES */
+
+
+/* Triangle Below Map */
+
+/*
+.map:before {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content:" ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: blue;
+    border-width: 20px;
+    margin-left: -20px;
+}
+*/ 

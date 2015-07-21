@@ -12,7 +12,7 @@ dp(document).ready(function() {
     //BIG SLIDE
     dp('#home-slide').superslides({
         animation: 'fade', // You can choose either fade or slide
-        play: 6000,
+        play: 10000,
         pagination: false
     });
     //FIT VIDS

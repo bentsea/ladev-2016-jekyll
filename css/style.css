@@ -40,7 +40,7 @@ Text Domain: Garis Themes
     color: #FFFFFF;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family:'Open Sans', sans-serif;
+    font-family: Oswald, sans-serif;
     color: #FFFF00;
 }
 h3, h4, h5 {
@@ -135,7 +135,7 @@ code {
     background: #00003F;
 }
 footer {
-    background: #181877;
+    background: #00003F;
     padding:40px;
 }
 footer p {
@@ -346,7 +346,7 @@ footer p {
     /* Opera */
     -moz-transform: rotateX(360deg);
     /* Firefox */
-    color: #4D4DFF;
+    color: #00003F;
     background: #DDAD02;
 }
 .social-icon li:hover a i {
@@ -391,7 +391,8 @@ footer p {
 .home .slide-text {
     position: absolute;
     display: block;
-    bottom:40%;
+    bottom:5%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     right: 0;
     left:-220px;
     width: 100%;
@@ -400,9 +401,10 @@ footer p {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+    font-size: 4em;
 }
 .home .slide-text h2 {
-    font-family:'Raleway', sans-serif;
+    font-family: Oswald, sans-serif;
     font-weight: 300;
     text-transform: uppercase;
     font-size: 56px;
@@ -821,19 +823,6 @@ footer p {
 /* Contact */
  .contact {
     position: relative;
-}
-.contact:before {
-    bottom: 100%;
-    left: 50%;
-    border: solid transparent;
-    content:" ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    border-bottom-color: blue;
-    border-width: 20px;
-    margin-left: -20px;
 }
 .contact form {
     margin-bottom: 40px;
