@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Artist and Vendor Info
-description: LouisiANIME Artist and Vendor Information
+description: LouisiANIME Artist and Vendor Information. Check here for updates and information for our artist alley and dealers room, including how to purchase a booth, and contact information.
 image: /images/meta/dealers_room.jpeg
 date: 2015-7-15
 category: information
