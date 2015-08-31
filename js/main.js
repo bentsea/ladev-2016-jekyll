@@ -191,7 +191,7 @@ dp(document).ready(function() {
                 latLng: [lats, lngs],
                 data: data_address,
                 options: {
-                    icon: "images/map-marker.png"
+                    icon: "/images/map-marker.png"
                 }
             }],
             options: {

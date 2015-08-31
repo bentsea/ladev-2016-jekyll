@@ -2,7 +2,7 @@
 layout: post
 title:  Greg Ayres
 date:   2015-04-07 08:00:00
-description: Announcing Greg Ayres as Guest and DJ for 2015!
+description: Announcing Greg Ayres as Guest and DJ for 2015! We are incredibly excited to announce guest and talented DJ Greg Ayres who has over 200 credits to his name! 
 image: /images/meta/greg_ayres_wide.jpg
 thumbnail: /images/guests/greg_ayres_thumbnail.jpg
 category: guests_2015

@@ -2,7 +2,7 @@
 layout: post
 title:  "Announcing  Queen D!"
 date:   2015-04-02 08:00:00
-description: Welcoming Our Emcee for 2015, Queen D!
+description: Welcoming Our Emcee for 2015, Queen D! Queen D is a veteran of LouisiANIME and is a delight for all, be prepared for excitement and fun!
 image: /images/meta/wide_queendbio.png
 thumbnail: /images/pages/prgm/thumbnail_queendbio.jpg
 category: cosplay_guests_2015

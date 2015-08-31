@@ -2,7 +2,7 @@
 layout: post
 title:  Eric Cherry
 date:   2015-04-07 08:00:00
-description: Announcing Greg Ayres as Guest and DJ for 2015!
+description: Welcoming back the incredibly fun and talented Eric Cherry for 2015! Industry veteran with more than 23 series and appearing in Assassination Classroom!
 image: /images/meta/wide_eric_cherry.jpg
 thumbnail: /images/guests/thumbnail_eric_cherry.jpg
 category: guests_2015

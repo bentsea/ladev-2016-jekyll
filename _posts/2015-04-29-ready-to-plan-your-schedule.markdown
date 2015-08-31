@@ -2,7 +2,7 @@
 layout: post
 title:  Ready to Plan Your Schedule?
 date:   2015-04-29 08:00:00
-description: Revealing the current schedule for 2015!
+description: Revealing the current schedule for 2015! We've got games, shows, and events planned from morning till late night all the way up till closing ceremonies!
 image: /images/steampunk.png
 category: news
 ---

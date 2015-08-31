@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <!-- PACE Loader -->
-    <!-- <script src="/js/lib/pace.min.js"></script>
-    <link href="/css/lib/pace.css" rel="stylesheet"> -->
-    <!-- END PACE Loader -->
+    {% if paginator.previous_page %}<link rel="prev" href="{{ paginator.previous_page_path }}" />{% endif %}
+    {% if paginator.next_page %}<link rel="next" href="{{ paginator.next_page_path }}" />{% endif %}
     {% include head.html %}
   </head>
 
