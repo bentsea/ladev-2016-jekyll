@@ -11,8 +11,10 @@
 
                         <p>Upon successful form submission, LouisiANIME will send applicants a PayPal invoice and hold the table reservation for 7 days to allow for payment. After 7 days, if the invoice is unpaid the table reservation will be released. We have 18 tables that we are able to distribute for Artist Alley this year. We look forward to seeing you all in 2015!</p>
                     </div>
+                </div>
+                <div class="row">
                     <div class="col-sm-6 col-md-8">
-                        <form role="form" action="http://www.louisianime.com/formtools/process.php" method="post">
+                        <form id="contact-us" role="form" action="/form-error" method="post">
                             <input type="hidden" name="form_tools_form_id" value="9" /> 
                             <div class="form-group row">
                                 <div class="col-md-8">
@@ -30,9 +32,23 @@
                                 </div>
                             </div>
                             <br/>
+                            <div class="g-recaptcha" data-theme="dark" data-callback="verifySuccess" data-expire-callback="resetVerify" data-sitekey="6LepjgwTAAAAAP3kfLXo3S9KwCQHSZ_Grq-LdFF_"></div>
+                            <br/>
                             <button type="submit" class="btn btn-dark big">Send Message</button>
                         </form>
                     </div>
+
+                    <script>
+                        function verifySuccess(captcha_data) {
+                            document.getElementById("contact-us").action = "/validate.php";
+                        }
+
+                        function resetVerify(captcha_data) {
+                            document.getElementById("contact-us").action = "/form-error";
+                        }
+                    </script>
+
+
                     <div class="col-sm-6 col-md-4">
                         <p>You may also contact us through a specific department:</p>
                         <br/>
