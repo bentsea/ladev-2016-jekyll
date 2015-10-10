@@ -12,7 +12,63 @@ category: galleries
 		</div>
 		<div class="col-md-12 mg-bt-80">
 		    <div class="row portfolioContainer  text-center">
-		    {% image_set images/gallery/gallery1 id="ramada cosplay" text="Picture from the Ramada." description="Pictures from the Ramada Conference center in Lafayette." %}
+		    <!-- begin gallery images -->
+<div class="col-md-4 col-xs-6 portfolio-item ramada cosplay">
+<a data-lightbox="ramada cosplay" href="/images/gallery/gallery1/louisianime_2015_promo_01.png" title="Picture from the Ramada.">
+<span class="project-hover">
+<span>Pictures from the Ramada Conference center in Lafayette.
+</span>
+</span>
+<img src="/images/gallery/gallery1_thumbs/louisianime_2015_promo_01.jpg" alt="Picture from the Ramada." />
+</a>
+</div>
+<div class="col-md-4 col-xs-6 portfolio-item ramada cosplay">
+<a data-lightbox="ramada cosplay" href="/images/gallery/gallery1/louisianime_2015_promo_02.png" title="Picture from the Ramada.">
+<span class="project-hover">
+<span>Pictures from the Ramada Conference center in Lafayette.
+</span>
+</span>
+<img src="/images/gallery/gallery1_thumbs/louisianime_2015_promo_02.jpg" alt="Picture from the Ramada." />
+</a>
+</div>
+<div class="col-md-4 col-xs-6 portfolio-item ramada cosplay">
+<a data-lightbox="ramada cosplay" href="/images/gallery/gallery1/louisianime_2015_promo_03.png" title="Picture from the Ramada.">
+<span class="project-hover">
+<span>Pictures from the Ramada Conference center in Lafayette.
+</span>
+</span>
+<img src="/images/gallery/gallery1_thumbs/louisianime_2015_promo_03.jpg" alt="Picture from the Ramada." />
+</a>
+</div>
+<div class="col-md-4 col-xs-6 portfolio-item ramada cosplay">
+<a data-lightbox="ramada cosplay" href="/images/gallery/gallery1/louisianime_2015_promo_04.png" title="Picture from the Ramada.">
+<span class="project-hover">
+<span>Pictures from the Ramada Conference center in Lafayette.
+</span>
+</span>
+<img src="/images/gallery/gallery1_thumbs/louisianime_2015_promo_04.jpg" alt="Picture from the Ramada." />
+</a>
+</div>
+<div class="col-md-4 col-xs-6 portfolio-item ramada cosplay">
+<a data-lightbox="ramada cosplay" href="/images/gallery/gallery1/louisianime_2015_promo_05.png" title="Picture from the Ramada.">
+<span class="project-hover">
+<span>Pictures from the Ramada Conference center in Lafayette.
+</span>
+</span>
+<img src="/images/gallery/gallery1_thumbs/louisianime_2015_promo_05.jpg" alt="Picture from the Ramada." />
+</a>
+</div>
+<div class="col-md-4 col-xs-6 portfolio-item ramada cosplay">
+<a data-lightbox="ramada cosplay" href="/images/gallery/gallery1/louisianime_2015_promo_06.png" title="Picture from the Ramada.">
+<span class="project-hover">
+<span>Pictures from the Ramada Conference center in Lafayette.
+</span>
+</span>
+<img src="/images/gallery/gallery1_thumbs/louisianime_2015_promo_06.jpg" alt="Picture from the Ramada." />
+</a>
+</div>
+<!-- end gallery images -->
+
 		    </div>
 		</div>
 	</div>
