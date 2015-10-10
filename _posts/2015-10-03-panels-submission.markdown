@@ -170,16 +170,12 @@ permalink: /panels
   <div class="col-md-4">
     <div class="input-group">
       <div class="input-group-btn">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="Panel Length" name="Panel Length" placeholder="Panel Length" required="">
-          Length w/ Setup and Tear down
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu pull-right">
-          <li><a href="#">60 Minutes</a></li>
-          <li><a href="#">90 Minutes</a></li>
-          <li><a href="#">120 Minutes</a></li>
-          <li><a href="#">Longer</a></li>
-        </ul>
+        <select type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="Panel Length" name="Panel Length" placeholder="Panel Length" required="">
+          <option>Length w/ Setup and Tear down</option>
+          <option value="60 Minutes">60 Minutes</option>
+          <option value="90 Minutes">90 Minutes</option>
+          <option value="120 Minutes">120 Minutes</option>
+          <option value="Over 120 Minutes">Longer</option>
       </div>
     </div>
   </div>
@@ -187,31 +183,27 @@ permalink: /panels
 
 <!-- Button Drop Down -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Preferred Day">Preferred Day*</label>
+  <label class="col-md-4 control-label" for="Preferred Day">Preferred Days*:</label>
   <div class="col-md-4">
     <div class="input-group">
       <div class="input-group-btn">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="Preferred Day" name="Preferred Day" placeholder="Preferred Day" required="">
-          Preferred Day
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu pull-right">
-          <li><a href="#">Anytime</a></li>
-          <li><a href="#">Friday Any</a></li>
-          <li><a href="#">Friday- Morning</a></li>
-          <li><a href="#">Friday- Afternoon</a></li>
-          <li><a href="#">Friday- Evening</a></li>
-          <li><a href="#">Friday- Late night</a></li>
-          <li><a href="#">Saturday Any</a></li>
-          <li><a href="#">Saturday-Morning</a></li>
-          <li><a href="#">Saturday- Day</a></li>
-          <li><a href="#">Saturday- Afternoon</a></li>
-          <li><a href="#">Saturday- Evening</a></li>
-          <li><a href="#">Saturday- Late night</a></li>
-          <li><a href="#">Sunday-Any</a></li>
-          <li><a href="#">Sunday- Morning</a></li>
-          <li><a href="#">Sunday- Afternoon</a></li>
-        </ul>
+        <select type="button" class="btn btn-default dropdown-toggle" id="Preferred Day" name="Preferred Day" placeholder="Preferred Day" required="">
+          <option value="Anytime">Anytime<span class="caret"></span></option>
+          <option value="Friday Any">Friday Any</option>
+          <option value="Friday- Morning">Friday- Morning</option>
+          <option value="Friday- Afternoon">Friday- Afternoon</option>
+          <option value="Friday- Evening">Friday- Evening</option>
+          <option value="Friday- Late night">Friday- Late night</option>
+          <option value="Saturday Any">Saturday Any</option>
+          <option value="Saturday-Morning">Saturday-Morning</option>
+          <option value="Saturday- Day">Saturday- Day</option>
+          <option value="Saturday- Afternoon">Saturday- Afternoon</option>
+          <option value="Saturday- Evening">Saturday- Evening</option>
+          <option value="Saturday- Late night">Saturday- Late night</option>
+          <option value="Sunday-Any">Sunday-Any</option>
+          <option value="Sunday- Morning">Sunday- Morning</option>
+          <option value="Sunday- Afternoon">Sunday- Afternoon</option>
+        </select>
       </div>
     </div>
   </div>
@@ -283,7 +275,7 @@ permalink: /panels
 
 <div class="form-group">
   <div class="col-md-4">
-	<button type="submit" class="btn btn-dark big">Send Message</button>
+	<button type="submit" class="btn btn-dark big">Submit</button>
   </div>
 </div>
 
