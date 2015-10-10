@@ -2,7 +2,7 @@
 layout: post
 title:  Panels Information and Submission
 description: Be a part of LouisiANIME as a panelist, enjoy free entrance to the convention and actively sharing your passions! Start discussions, teach craft, demo your art, and have a blast!
-date: 2015-7-15
+date: 2015-10-06
 category: information
 permalink: /panels
 ---
