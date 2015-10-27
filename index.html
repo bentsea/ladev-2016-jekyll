@@ -4,28 +4,6 @@ title: Home
 description: The LouisiANIME convention is a 3 day event for all ages in Lafayette,LA. Enjoy celebrity guests, extravagant costumes, arts, crafts, music, and dancing.
 ---
 
-<!--
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
--->
-
             <!-- BEGIN HOME -->
             <div id="top"></div>
             <section id="home" class="home">
@@ -40,7 +18,7 @@ description: The LouisiANIME convention is a 3 day event for all ages in Lafayet
                                 <a href="#guests"><span class="glyphicon glyphicon-chevron-down"></span></a>
                             </div>
                             <!-- <div class="slide-filter"></div> -->
-                            <div style="background-image: url('/images/carousel/carousel1.png');" class="bg-parallax parallaxize"></div>
+                            <div style="background-image: url('/images/carousel/carousel1.jpg');" class="bg-parallax parallaxize"></div>
 
                         </li>
                         <!--
@@ -62,7 +40,7 @@ description: The LouisiANIME convention is a 3 day event for all ages in Lafayet
                                 <br/>
                             </div>
                             <div class="slide-filter"></div>
-                            <div style="background-image: url('images/carousel/steampunk.png');" class="bg-parallax parallaxize"></div>
+                            <div style="background-image: url('images/carousel/steampunk.jpg');" class="bg-parallax parallaxize"></div>
                         </li>
                     </ul>
                     <nav class="slides-navigation slidez">
@@ -93,8 +71,7 @@ description: The LouisiANIME convention is a 3 day event for all ages in Lafayet
 
                     <div class="col-md-12">
                         <div class="row">
-                            <!--
-                            {% for post in site.categories.guests_2015 %}
+                            {% for post in site.categories.2016_guests_baton_rouge %}
                             <div class="col-md-4 mg-bt-40">
                                 <div class="row services-item">
                                     <div class="col-xs-12 col-sm-3">
@@ -114,7 +91,6 @@ description: The LouisiANIME convention is a 3 day event for all ages in Lafayet
                                 </div>
                             </div>
                             {% endfor %}
-                        -->
                         </div>
                     </div>
                     <div class="col-md-8 mg-bt-80">
@@ -185,13 +161,13 @@ description: The LouisiANIME convention is a 3 day event for all ages in Lafayet
                         <p>There's much more for you. Games, crafts, movies, Club Pelican, tea tasting, and origami are just a few of the things you'll get to do at LouisiANIME.</p>
                         <div id="slider-services">
                             <div>
-                                <img src="images/carousel/carousel2_cosplay.png" alt="image description" />
+                                <img src="images/carousel/carousel2_cosplay.jpg" alt="image description" />
                             </div>
                             <div>
-                                <img src="images/carousel/carousel2_dealers_room.png" alt="image description" />
+                                <img src="images/carousel/carousel2_dealers_room.jpg" alt="image description" />
                             </div>
                             <div>
-                                <img src="images/carousel/carousel2_gameshow.png" alt="image description" />
+                                <img src="images/carousel/carousel2_gameshow.jpg" alt="image description" />
                             </div>
                         </div>
                     </div>
@@ -211,12 +187,6 @@ description: The LouisiANIME convention is a 3 day event for all ages in Lafayet
                     <div class="col-md-12 mg-bt-80">
                         <p>A Weekend membership to LouisiANIME 2016 comes with full access to the entire convention for all 3 days, March 25-27th, 2016. Concerts, anime, tea, guest panels, games, and much more! Right now you can get our best price, the full Weekend membership at just $30. This offer will expire on August 1st!</p>
                         <p>Or go big... and get our best value pass at the best price it will be available for all year! For just $35 more, if you buy before August 1st. Check out all the advantages that come with Premium membership:</p>
-                        <ul class="social-icon">
-                            <li>
-                              <a href="/registration">
-                                <b>$35</b></a>Ends Nov 1
-                            </li>
-                        </ul>
                         <table id="comparetable" class="goldleaf table">
                         <tr>
                         <td class="blank"> </td>
@@ -279,53 +249,45 @@ description: The LouisiANIME convention is a 3 day event for all ages in Lafayet
                                        
                         </table>
 
-                        <p>*This price is only available till Aug 1st.<br/>
+                        <p>*This price is only available till Nov 1st.<br/>
                             ** The premium badge is a $35 upcharge to standard membership and will increase as the regular membership increases.
                         </p>
 
 
 
                         <h2 style="text-align: center; padding-bottom: 30px;">Get your membership while our best prices are available!</h2>
-            <table class="table" style="text-align: center; width: 100%; ">
-                <tr>
-                    <td>
-                        </style>
-                        <ul class="social-icon">
-                            <li>
-                              <a href="/registration" style="color: gray;">
-                                <b><strike>$30</strike></b></a>
-                            </li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul class="social-icon">
-                            <li>
-                              <a href="/registration">$35</a>
-                            </li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul class="social-icon">
-                            <li>
-                              <a href="/registration" style="color: gray;">$40</a>
-                            </li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul class="social-icon">
-                            <li>
-                              <a href="/registration" style="color: gray;">$48</a>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Ended Aug 1</td>
-                    <td>Ends Nov 1</td>
-                    <td>Ends Feb 2</td>
-                    <td>Door Price</td>
-                </tr>
-            </table>
+                        <div class="table-responsive">
+                            <table class="table" style="text-align: center; width: 100%; ">
+                                <tr>
+                                    <td>
+                                        <ul class="social-icon">
+                                            <li>
+                                              <a href="/registration">$35</a>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul class="social-icon">
+                                            <li>
+                                              <a href="/registration" style="color: gray;">$40</a>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul class="social-icon">
+                                            <li>
+                                              <a href="/registration" style="color: gray;">$48</a>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Ends Nov 1</td>
+                                    <td>Ends Feb 2</td>
+                                    <td>Door Price</td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </section>

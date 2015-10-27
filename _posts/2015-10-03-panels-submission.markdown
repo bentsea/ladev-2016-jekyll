@@ -9,7 +9,7 @@ permalink: /panels
 
 
 <form action="http://www.louisianime.com/formtools/process.php" method="post">
-<input type="hidden" name="form_tools_form_id" value="13"/>
+<input type="hidden" name="form_tools_form_id" value="17"/>
 <fieldset>
 
 <!-- Form Name -->
@@ -27,27 +27,27 @@ permalink: /panels
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Group name">Group Name</label>  
+  <label class="col-md-4 control-label" for="Group_name">Group Name</label>  
   <div class="col-md-4">
-  <input id="Group name" name="Group name" type="text" placeholder="Group Name" class="form-control input-md">
+  <input id="Group_name" name="Group_name" type="text" placeholder="Group Name" class="form-control input-md">
   <span class="help-block">Name of Group if you have one</span>  
   </div>
 </div>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Date of Birth">Date of Birth*:</label>  
+  <label class="col-md-4 control-label" for="Date_of_Birth">Date of Birth*:</label>  
   <div class="col-md-4">
-  <input id="Date of Birth" name="Date of Birth" type="text" placeholder="Date of Birth" class="form-control input-md" required="">
+  <input id="Date_of_Birth" name="Date_of_Birth" type="text" placeholder="Date of Birth" class="form-control input-md" required="">
   <span class="help-block">Please enter your birthday.</span>  
   </div>
 </div>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Phone Number">Phone Number*:</label>  
+  <label class="col-md-4 control-label" for="Phone_Number">Phone Number*:</label>  
   <div class="col-md-4">
-  <input id="Phone Number" name="Phone Number" type="text" placeholder="Phone Number" class="form-control input-md" required="">
+  <input id="Phone_Number" name="Phone_Number" type="text" placeholder="Phone Number" class="form-control input-md" required="">
   <span class="help-block">Please enter the phone number we can reach you onsite</span>  
   </div>
 </div>
@@ -63,44 +63,44 @@ permalink: /panels
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Zip Code">Zip Code*:</label>  
+  <label class="col-md-4 control-label" for="Zip_Code">Zip Code*:</label>  
   <div class="col-md-4">
-  <input id="Zip Code" name="Zip Code" type="text" placeholder="Zip Code" class="form-control input-md" required="">
+  <input id="Zip_Code" name="Zip_Code" type="text" placeholder="Zip Code" class="form-control input-md" required="">
   <span class="help-block">Zip Code</span>  
   </div>
 </div>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Panel Name">Panel Name*:</label>  
+  <label class="col-md-4 control-label" for="Panel_Name">Panel Name*:</label>  
   <div class="col-md-4">
-  <input id="Panel Name" name="Panel Name" type="text" placeholder="Panel Name" class="form-control input-md" required="">
+  <input id="Panel_Name" name="Panel_Name" type="text" placeholder="Panel Name" class="form-control input-md" required="">
   <span class="help-block">Name of your Panel</span>  
   </div>
 </div>
 
 <!-- Multiple Radios (inline) -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Panel Type">Panel type</label>
+  <label class="col-md-4 control-label" for="Panel_Type">Panel type</label>
   <div class="col-md-4"> 
-    <label class="radio-inline" for="Panel Type-0">
-      <input type="radio" name="Panel Type" id="Panel Type-0" value="1" checked="checked">
+    <label class="radio-inline" for="Panel_Type_0">
+      <input type="radio" name="Panel_Type" id="Panel_Type_0" value="Q&amp;A" checked="checked">
       Q&amp;A
     </label> 
-    <label class="radio-inline" for="Panel Type-1">
-      <input type="radio" name="Panel Type" id="Panel Type-1" value="2">
+    <label class="radio-inline" for="Panel_Type_1">
+      <input type="radio" name="Panel_Type" id="Panel_Type_1" value="Workshop">
       Workshop
     </label> 
-    <label class="radio-inline" for="Panel Type-2">
-      <input type="radio" name="Panel Type" id="Panel Type-2" value="3">
+    <label class="radio-inline" for="Panel_Type_2">
+      <input type="radio" name="Panel_Type" id="Panel_Type_2" value="Game Show">
       Game Show
     </label> 
-    <label class="radio-inline" for="Panel Type-3">
-      <input type="radio" name="Panel Type" id="Panel Type-3" value="4">
+    <label class="radio-inline" for="Panel_Type_3">
+      <input type="radio" name="Panel_Type" id="Panel_Type_3" value="Panel">
       Panel
     </label> 
-    <label class="radio-inline" for="Panel Type-4">
-      <input type="radio" name="Panel Type" id="Panel Type-4" value="5">
+    <label class="radio-inline" for="Panel_Type_4">
+      <input type="radio" name="Panel_Type" id="Panel_Type_4" value="Misc">
       Misc
     </label>
   </div>
@@ -108,47 +108,47 @@ permalink: /panels
 
 <!-- Multiple Checkboxes -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Equipment List">Equipment List</label>
+  <label class="col-md-4 control-label" for="Equipment_List">Equipment List</label>
   <div class="col-md-4">
   <div class="checkbox">
-    <label for="Equipment List-0">
-      <input type="checkbox" name="Equipment List" id="Equipment List-0" value="1">
+    <label for="Equipment_List_0">
+      <input type="checkbox" name="Equipment_List" id="Equipment_List_0" value="Projector">
       Projector
     </label>
 	</div>
   <div class="checkbox">
-    <label for="Equipment List-1">
-      <input type="checkbox" name="Equipment List" id="Equipment List-1" value="2">
+    <label for="Equipment_List_1">
+      <input type="checkbox" name="Equipment_List" id="Equipment_List_1" value="VGA Cable">
       VGA Cable
     </label>
 	</div>
   <div class="checkbox">
-    <label for="Equipment List-2">
-      <input type="checkbox" name="Equipment List" id="Equipment List-2" value="3">
+    <label for="Equipment_List_2">
+      <input type="checkbox" name="Equipment_List" id="Equipment_List_2" value="HDMI Cable">
       HDMI Cable
     </label>
 	</div>
   <div class="checkbox">
-    <label for="Equipment List-3">
-      <input type="checkbox" name="Equipment List" id="Equipment List-3" value="4">
+    <label for="Equipment_List_3">
+      <input type="checkbox" name="Equipment_List" id="Equipment_List_3" value="Will you need to play audio from Laptop or Ipod?">
       Will you need to play audio from Laptop or Ipod?
     </label>
 	</div>
   <div class="checkbox">
-    <label for="Equipment List-4">
-      <input type="checkbox" name="Equipment List" id="Equipment List-4" value="5">
+    <label for="Equipment_List_4">
+      <input type="checkbox" name="Equipment_List" id="Equipment_List_4" value="Speakers">
       Speakers
     </label>
 	</div>
   <div class="checkbox">
-    <label for="Equipment List-5">
-      <input type="checkbox" name="Equipment List" id="Equipment List-5" value="6">
+    <label for="Equipment_List_5">
+      <input type="checkbox" name="Equipment_List" id="Equipment_List_5" value="Microphone">
       Microphone
     </label>
 	</div>
   <div class="checkbox">
-    <label for="Equipment List-6">
-      <input type="checkbox" name="Equipment List" id="Equipment List-6" value="7">
+    <label for="Equipment_List_6">
+      <input type="checkbox" name="Equipment_List" id="Equipment_List_6" value="Mac Laptop Connector">
       Mac Laptop Connector
     </label>
 	</div>
@@ -157,25 +157,26 @@ permalink: /panels
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Assistant Panelist Name">Assistant Panelist Name:</label>  
+  <label class="col-md-4 control-label" for="Assistant_Panelist_Name">Assistant Panelist Name:</label>  
   <div class="col-md-4">
-  <input id="Assistant Panelist Name" name="Assistant Panelist Name" type="text" placeholder="Assistant Panelist Name" class="form-control input-md">
+  <input id="Assistant_Panelist_Name" name="Assistant_Panelist_Name" type="text" placeholder="Assistant Panelist Name" class="form-control input-md">
   <span class="help-block">You get 1 extra badge with each panel.</span>  
   </div>
 </div>
 
 <!-- Button Drop Down -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Panel Length">Panel Length*</label>
+  <label class="col-md-4 control-label" for="Panel_Length">Panel Length*</label>
   <div class="col-md-4">
     <div class="input-group">
       <div class="input-group-btn">
-        <select type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="Panel Length" name="Panel Length" placeholder="Panel Length" required="">
+        <select type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="Panel_Length" name="Panel_Length" required="">
           <option>Length w/ Setup and Tear down</option>
           <option value="60 Minutes">60 Minutes</option>
           <option value="90 Minutes">90 Minutes</option>
           <option value="120 Minutes">120 Minutes</option>
           <option value="Over 120 Minutes">Longer</option>
+        </select>
       </div>
     </div>
   </div>
@@ -183,11 +184,11 @@ permalink: /panels
 
 <!-- Button Drop Down -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Preferred Day">Preferred Days*:</label>
+  <label class="col-md-4 control-label" for="Preferred_Day">Preferred Days*:</label>
   <div class="col-md-4">
     <div class="input-group">
       <div class="input-group-btn">
-        <select type="button" class="btn btn-default dropdown-toggle" id="Preferred Day" name="Preferred Day" placeholder="Preferred Day" required="">
+        <select type="button" class="btn btn-default dropdown-toggle" id="Preferred_Day" name="Preferred_Day" placeholder="Preferred Day" required="">
           <option value="Anytime">Anytime<span class="caret"></span></option>
           <option value="Friday Any">Friday Any</option>
           <option value="Friday- Morning">Friday- Morning</option>
@@ -211,33 +212,33 @@ permalink: /panels
 
 <!-- Textarea -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Time NOT available">Time NOT available*:</label>
+  <label class="col-md-4 control-label" for="Time_NOT_available">Time NOT available*:</label>
   <div class="col-md-4">                     
-    <textarea class="form-control" id="Time NOT available" name="Time NOT available"></textarea>
+    <textarea class="form-control" id="Time_NOT_available" name="Time_NOT_available"></textarea>
   </div>
 </div>
 
 <!-- Textarea -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Panel Description for Program Guide">Panel Description*:</label>
+  <label class="col-md-4 control-label" for="Panel_Description_for_Program_Guide">Panel Description*:</label>
   <div class="col-md-4">                     
-    <textarea class="form-control" id="Panel Description for Program Guide" name="Panel Description for Program Guide" required></textarea>
+    <textarea class="form-control" id="Panel_Description_for_Program_Guide" name="Panel_Description_for_Program_Guide" required></textarea>
   </div>
 </div>
 
 <!-- Multiple Radios -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Previous con?">Presented at other conventions?*</label>
+  <label class="col-md-4 control-label" for="Previous_con">Presented at other conventions?*</label>
   <div class="col-md-4">
   <div class="radio">
-    <label for="Previous con?-0">
-      <input type="radio" name="Previous con?" id="Previous con?-0" value="1" checked="checked">
+    <label for="Previous_con_0">
+      <input type="radio" name="Previous_con" id="Previous_con_0" value="yes" checked="checked">
       Yes
     </label>
 	</div>
   <div class="radio">
-    <label for="Previous con?-1">
-      <input type="radio" name="Previous con?" id="Previous con?-1" value="2">
+    <label for="Previous_con_1">
+      <input type="radio" name="Previous_con" id="Previous_con_1" value="no">
       No
     </label>
 	</div>
@@ -246,27 +247,27 @@ permalink: /panels
 
 <!-- Textarea -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="IF yes to above ">If Yes to above please list where.</label>
+  <label class="col-md-4 control-label" for="IF_yes_to_above_">If Yes to above please list where.</label>
   <div class="col-md-4">                     
-    <textarea class="form-control" id="IF yes to above " name="IF yes to above "></textarea>
+    <textarea class="form-control" id="IF_yes_to_above_ " name="IF_yes_to_above_"></textarea>
   </div>
 </div>
 
 <!-- Textarea -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Special Requests/Comments">Special Requests/Comments</label>
+  <label class="col-md-4 control-label" for="special_requests_comments">Special Requests/Comments</label>
   <div class="col-md-4">                     
-    <textarea class="form-control" id="Special Requests/Comments" name="Special Requests/Comments"></textarea>
+    <textarea class="form-control" id="special_requests_comments" name="special_requests_comments"></textarea>
   </div>
 </div>
 
 <!-- Multiple Checkboxes -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="checkboxes">Terms of Service*:</label>
+  <label class="col-md-4 control-label" for="terms_of_service">Terms of Service*:</label>
   <div class="col-md-4">
   <div class="checkbox">
     <label for="checkboxes-0">
-      <input type="checkbox" name="terms-of-service" id="terms-of-service" required>
+      <input type="checkbox" name="terms_of_service" id="terms_of_service" required>
       I agree that each panel will only receive 2 badges. 1 for Panelist and 1 for an assistant. Also a panelist doing multiple panels will still only receive 1 badge but can receive another badge for their assistant IF the assistant has not already received a badge.
     </label>
 	</div>
