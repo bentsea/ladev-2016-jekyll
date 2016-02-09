@@ -3,7 +3,7 @@ layout: post
 title:  "LouisiANIME Cosplay Information"
 date:   2016-02-02 08:00:00
 description: Announcing the cosplay judges for LouisiANIME 2016 in Baton Rouge! Check here for information on this year's judges and how to participate.
-image: /images/meta/ubergeeks-cosplay.jpg
+image: /images/meta/cosplay_contest_gallery2.jpg
 categories: cosplay_guests_2016, information
 ---
 
@@ -20,7 +20,7 @@ Below are links to our rules, information about skill levels for competition, an
 
 ##2016 Baton Rouge Cosplay Judges
 
-LouisiANIME is excited to announce that Ubergeeks Cosplay will be judging the cosplay contest for our 2016 show in Baton Rouge! Ubergeeks Cosplay - Team UGC began cosplaying in 2013 as a two person team.
+LouisiANIME is excited to announce that Shark Baroness, Mango Sirene and Ubergeeks Cosplay will be judging the cosplay contest for our 2016 show in Baton Rouge! Each guest brings years of experience in their own fields and are excited to participate in our contest this year.
 
 Founded officially in 2014 as a competitive duo, they competed and won their first best in show for Alphonse Elric at Mechacon. Since then, they have added an official third member as a handler and gone on to win 4 consecutive best in show awards in 15 months, most recently winning best in show at Wizard World New Orleans 2016. The concept behind Team UGC is simple: teach. Understanding building methods and pushing information out there is their most important goal and the entire reason the group was formed.
 

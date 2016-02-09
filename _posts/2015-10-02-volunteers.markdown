@@ -14,7 +14,7 @@ permalink: /volunteers
 	<li>Free convention membership</li>
 	<li>Snacks and refreshments</li>
 	<li>Crash space for long distance volunteers (Volunteers living 30minutes away or longer)</li>
-	<li>Exlusive invitation to private after party</li>
+	<li>Exclusive invitation to private after party</li>
 </ul>
 <p>Please fill out the form below to volunteer, and thank you so much for being a part of LouisiANIME!</p>
 
@@ -68,7 +68,7 @@ permalink: /volunteers
   <label class="col-md-4 control-label" for="city">City*:</label>  
   <div class="col-md-4">
   <input id="city" name="city" type="text" placeholder="" class="form-control input-md" required="">
-    
+
   </div>
 </div>
 
@@ -77,7 +77,7 @@ permalink: /volunteers
   <label class="col-md-4 control-label" for="state">State*:</label>  
   <div class="col-md-1">
   <input id="state" name="state" type="text" placeholder="" class="form-control input-md" required="">
-    
+
   </div>
 </div>
 
@@ -86,7 +86,7 @@ permalink: /volunteers
   <label class="col-md-4 control-label" for="zipcode">Postal / Zip Code*:</label>  
   <div class="col-md-2">
   <input id="zipcode" name="zipcode" type="text" placeholder="" class="form-control input-md" required="">
-    
+
   </div>
 </div>
 
@@ -97,7 +97,7 @@ permalink: /volunteers
   <label class="col-md-4 control-label" for="phone">Phone No.*:</label>  
   <div class="col-md-4">
   <input id="phone" name="phone" type="text" placeholder="(555) 555-5555" class="form-control input-md" required="">
-    
+
   </div>
 </div>
 
@@ -106,7 +106,7 @@ permalink: /volunteers
   <label class="col-md-4 control-label" for="email">Email*:</label>  
   <div class="col-md-6">
   <input id="email" name="email" type="text" placeholder="" class="form-control input-md" required="">
-    
+
   </div>
 </div>
 
@@ -179,7 +179,7 @@ permalink: /volunteers
 
 <!-- Multiple Radios -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="overtime">Would you be willing to work additional ours if we are short on staff?</label>
+  <label class="col-md-4 control-label" for="overtime">Would you be willing to work additional hours if we are short on staff?</label>
   <div class="col-md-4">
   <div class="radio">
     <label for="overtime-0">
@@ -218,7 +218,7 @@ permalink: /volunteers
 <div class="form-group">
   <label class="col-md-4 control-label" for="tos"></label>
   <div class="col-md-4">
-  	I agree to the LouisiANIME terms of service for dress code and behavior, as well as to work the full hours required for eligibility of volunteer benefits*: 
+  	I agree to the LouisiANIME terms of service for dress code and behavior, as well as to work the full hours required for eligibility of volunteer benefits*:
     <label class="checkbox-inline" for="tos-0">
       <input type="checkbox" name="tos" id="tos-0" value="Yes" required>Yes</label>
   </div>
