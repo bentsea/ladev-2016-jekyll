@@ -9,11 +9,13 @@ permalink: /vendors
 ---
 
 ##Artist Alley
+LouisiANIME has sold out of Artist Alley tables for 2016 in Baton Rouge. Please check back here after the show for information on signing up for next year.
 
+<!--
 <p>Please read both this product description and our <a href="/tos">terms of service</a> carefully. An Artist Alley table at LouisiANIME comes with 1 table in the Artist Alley and one badge and will be hosted on the floor of the hotel. Up to 2 extra badges may be added for $30 each for a total of 3 badges. Register below:</p>
 <ul>
 	<li><a href="/artistalley"><b>Artist Alley Registration</b></a></li>
-</ul>
+</ul>-->
 
 
 ##Dealers Room
@@ -21,20 +23,26 @@ permalink: /vendors
 
 At LouisiANIME, we bring together all sorts of vendors who sell quality merchandise such as DVDs, t-shirts, costume props, games, figures.  The dealers room is a fun and convenient place to buy products that cater to fans of pop culture and anime that are not readily available in local stores.  Every year we bring in some new vendors to sell alongside the veteran dealers in order to ensure an ever changing and current line of products assembled for you, the LouisiANIME attendee.
 
-LouisiANIME is proud to have hosted a wide variety of Dealers in years past, such as:
+LouisiANIME is proud host a wide variety of dealers. At LouisiANIME 2016 you'll be able to purchase from the following dealers:
 
-* Anime Jutsu
-* Anime Pavillion
-* Anime Pop
-* Anime Remix
-* Octane Toys
-* Wayne’s Comic Closet
-* Yuki Pearl
+* [Loyal K.N.G.](http://loyalkng.com/ "Loyal K.N.G.")
+* FireFly Lane
+* Legendary Treasures
+* Nerd Heven
+* [Cosplay Moo Moo](https://www.facebook.com/Cosplaymoomoo/ "Cosplay Moo Moo")
+* [TeeTurtle](http://www.teeturtle.com/ "TeeTurtle")
+* [LazyNerdsDesigns](http://LazyNerdsDesigns.com "LazyNerdsDesigns")
+* [Octane Toys](http://www.octanetoys.com/zencart151/ "Octane Toys")
+* [Corset Punk & Kilts](http://www.corsetpunk.com/ "Corset Punk & Kilts")
+* [JAPAN TOYZ Unique Soldtique](http://www.uniquesoldtique.com/ "JAPAN TOYZ Unique Soldtique")
+* [Fairy Tail Anime](http://facebook.com/fairytailstore "Fairy Tail Anime")
+* [Wayne's Comic Closet](http://www.waynesanime.com/ "Wayne's Comic Closet")
+* [Anime Palace](http://www.theanimepalace.com/ "Anime Palace")
+
 
 Dealers for LouisiANIME Baton Rouge 2016:
-In the coming months we will be announcing dealers for LouisiANIME 2015.
 
-If you are interested in being a vendor in the LouisiANIME dealers’ room, please email us at <a href="mailto:vendors@louisianime.com">vendors@louisianime.com</a> for availability information, or fill out the form below:
+We are sold out of vendor tables for 2016 in Baton Rouge. If you're interested in vending at future shows, please email us at <a href="mailto:vendors@louisianime.com">vendors@louisianime.com</a> for availability information, or fill out the form below:
 
 <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12">

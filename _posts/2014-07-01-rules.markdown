@@ -4,6 +4,7 @@ title:  Convention Rules
 description: LouisiANIME rules for conduct, weapons policy, and dress code. Help keep our con one of the friendliest there is.
 category: information
 permalink: /rules
+image: /images/meta/obey.jpg
 ---
 
 ##Dress Code
@@ -16,7 +17,7 @@ Louisianime has a PG-13 dress code policy. Generally anything you wear on the co
 - Bikini costumes are allowed as long as all areas are covered appropriately.
 - Louisianime staff reserves the right to request anyone change if they deem that the attendee is not dress appropriately in accordance with the hotel dress policy.
 
- 
+
 ##Weapons Policy
 
 Louisianime will be providing weapons check at the cosplay table on site at the convention. If you have a prop weapon you will need to have it checked. Props will be marked with a zip tie.
