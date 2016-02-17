@@ -5,10 +5,12 @@ date:   2016-02-02 08:00:00
 description: Announcing the cosplay judges for LouisiANIME 2016 in Baton Rouge! Check here for information on this year's judges and how to participate.
 image: /images/meta/cosplay_contest_gallery2.jpg
 categories: cosplay_guests_2016, information
+permalink: /cosplay
 ---
 
 
-<a href="/images/cosplay/ubergeeks-cosplay.jpg" data-lightbox="guests"><img class="img-responsive" src="/images/cosplay/cosplay-judges-banner.jpg" alt="Cherami Leigh" width="100%" ></a>
+<a href="/images/cosplay/ubergeeks-cosplay.jpg" data-lightbox="guests"><img class="img-responsive" src="/images/cosplay/cosplay-judges-banner.jpg" alt="Ubergeeks Cosplay" width="100%" ></a>
+<p><sup>Photograph provided by Rogue Pixels Photography</sup></p>
 
 ##Rules, Skill Levels, Online Entry
 Below are links to our rules, information about skill levels for competition, and a form to register online for the cosplay contest. On request we can provide a form that can be printed out. Please read all of the rules before registering.
@@ -35,27 +37,31 @@ Lorax the lifesaver, also known as UberGeek Lorax. Handlers are important! Lorax
 		<div class="col-md-12 mg-bt-80">
 		    <div class="row portfolioContainer  text-center">
 		    <!-- begin gallery images -->
-<div class="col-md-4 col-xs-6 portfolio-item ramada cosplay">
+<div class="col-md-4 col-xs-6 portfolio-item cosplay">
 <a data-lightbox="cosplay" href="/images/cosplay/judges1.jpg" title="">
 <img src="/images/cosplay/judges1-thumb.jpg" alt="Cosplay Judges." />
 </a>
 </div>
-<div class="col-md-4 col-xs-6 portfolio-item ramada cosplay">
-<a data-lightbox="cosplay" href="/images/cosplay/judges2.jpg" title="">
+<div class="col-md-4 col-xs-6 portfolio-item cosplay">
+<a class="popup" data-lightbox="cosplay" href="/images/cosplay/judges2.jpg" title="Photograph provided by Rogue Pixels Photography">
+    <span class="project-hover">
+        <span><sup>Photograph provided by Rogue Pixels Photography</sup>
+        </span>
+    </span>
 <img src="/images/cosplay/judges2-thumb.jpg" alt="Cosplay Judges." />
 </a>
 </div>
-<div class="col-md-4 col-xs-6 portfolio-item ramada cosplay">
+<div class="col-md-4 col-xs-6 portfolio-item cosplay">
 <a data-lightbox="cosplay" href="/images/cosplay/judges3.jpg" title="">
 <img src="/images/cosplay/judges3-thumb.jpg" alt="Cosplay Judges." />
 </a>
 </div>
-<div class="col-md-4 col-xs-6 portfolio-item ramada cosplay">
+<div class="col-md-4 col-xs-6 portfolio-item cosplay">
 <a data-lightbox="cosplay" href="/images/cosplay/judges4.jpg" title="">
 <img src="/images/cosplay/judges4-thumb.jpg" alt="Cosplay Judges." />
 </a>
 </div>
-<div class="col-md-4 col-xs-6 portfolio-item ramada cosplay">
+<div class="col-md-4 col-xs-6 portfolio-item cosplay">
 <a data-lightbox="cosplay" href="/images/cosplay/judges5.jpg" title="">
 <img src="/images/cosplay/judges5-thumb.jpg" alt="Cosplay Judges." />
 </a>
