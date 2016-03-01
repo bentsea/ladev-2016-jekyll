@@ -4,7 +4,7 @@ title:  "LouisiANIME Cosplay Information"
 date:   2016-02-02 08:00:00
 description: Announcing the cosplay judges for LouisiANIME 2016 in Baton Rouge! Check here for information on this year's judges and how to participate.
 image: /images/meta/cosplay_contest_gallery2.jpg
-categories: cosplay_guests_2016, information
+categories: cosplay_guests_2016 information
 permalink: /cosplay
 ---
 
@@ -43,7 +43,7 @@ Lorax the lifesaver, also known as UberGeek Lorax. Handlers are important! Lorax
 </a>
 </div>
 <div class="col-md-4 col-xs-6 portfolio-item cosplay">
-<a class="popup" data-lightbox="cosplay" href="/images/cosplay/judges2.jpg" title="Photograph provided by Rogue Pixels Photography">
+<a data-lightbox="cosplay" href="/images/cosplay/judges2.jpg" title="Photograph provided by Rogue Pixels Photography">
     <span class="project-hover">
         <span><sup>Photograph provided by Rogue Pixels Photography</sup>
         </span>
