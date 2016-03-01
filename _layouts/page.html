@@ -11,11 +11,12 @@
   <body data-spy="scroll">
     <!-- <div id="loader"></div> -->
     <div id="main-wrapper">
-             {% include header.posts.html %}
+             {% include header.page.html %}
 
       <div id="container">
         <div class="wrapper">
           {{ content }}
+          {% include contact.html %}
           <div class="push"></div>
         </div>
         {% include footer.html %}
