@@ -19,9 +19,7 @@ permalink: /programming
         </div>
         <div class="col-md-12 mg-bt-80">
           <p>We're very excited to reveal our preliminary schedule for LouisiANIME 2016 in Baton Rouge. Please be aware that this is a preliminary schedule and is subject to change. Click on the images below to load the full PDF:</p>
-          <p><a href="/schedule"><img class="img-responsive" src="/images/information/FridaySchedule.JPG" alt="Friday schedule"></a></p>
-          <p><a href="/schedule"><img class="img-responsive" src="/images/information/SaturdaySchedule.JPG" alt="Saturday schedule"></a></p>
-          <p><a href="/schedule"><img class="img-responsive" src="/images/information/SundaySchedule.JPG" alt="Sunday schedule"></a></p>
+          <p><a href="/schedule"><img class="img-responsive" src="/images/information/louisianime_br_2016_schedule.png" alt="LouisiANIME 2016 Baton Rouge Schedule"></a></p>
         </div>
         <div class="col-md-12 mg-bt-80">
             <p>Be sure to check out information about all the wonderful guests who you will get to meet at LouisiANIME!</p>
