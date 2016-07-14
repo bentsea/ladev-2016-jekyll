@@ -14,7 +14,7 @@ markdown: kramdown
 permalink: pretty
 highlighter: pygments
 encoding: utf-8
-categories: [information, guests_2015, ]
+categories: [information, guests_2015, guests_2016, guests_2017]
 
 paginate: 9
 paginate_path: "/blog/page:num/"
