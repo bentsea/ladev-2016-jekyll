@@ -5,7 +5,7 @@ description: Get ready to meet the incredible Cherami Leigh to LouisiANIME 2016 
 date: 2015-10-26 08:00:00
 image: /images/meta/cherami_leigh_wide.jpg
 thumbnail: /images/guests/headshot_cherami_leigh_thumbnail.jpg
-category: 2016_guests_baton_rouge
+category: guests_2016
 ---
 
 

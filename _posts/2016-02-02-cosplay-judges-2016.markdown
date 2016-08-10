@@ -4,7 +4,7 @@ title:  "LouisiANIME Cosplay Information"
 date:   2016-02-02 08:00:00
 description: Announcing the cosplay judges for LouisiANIME 2016 in Baton Rouge! Check here for information on this year's judges and how to participate.
 image: /images/meta/cosplay_contest_gallery2.jpg
-categories: cosplay_guests_2016 information
+categories: guests_2016 information
 permalink: /cosplay
 ---
 

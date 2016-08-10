@@ -5,7 +5,7 @@ date:   2016-02-03 08:00:00
 description: Welcoming back the incredibly fun and talented Eric Cherry for 2016! Industry veteran with more than 23 series in his credits!
 image: /images/meta/wide_eric_cherry.jpg
 thumbnail: /images/guests/thumbnail_eric_cherry.jpg
-category: 2016_guests_baton_rouge
+category: guests_2016
 ---
 
 <a name="EricCherry"></a>

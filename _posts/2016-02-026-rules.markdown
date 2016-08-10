@@ -4,6 +4,7 @@ title:  Convention Rules
 description: LouisiANIME rules for conduct, weapons policy, and dress code. Help keep our con one of the friendliest there is.
 category: information
 permalink: /rules
+date: 2016-02-26
 image: /images/meta/obey.jpg
 ---
 

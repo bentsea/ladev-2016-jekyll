@@ -5,7 +5,7 @@ date:   2016-02-13 08:00:00
 description: LouisiANIME is thrilled to announce that we've invited the talented Austin Tindle as a guest at LouisiANIME 2016 Baton Rouge!
 image: /images/meta/austin_tindle_wide.jpg
 thumbnail: /images/guests/austin_tindle_thumbnail.jpg
-category: 2016_guests_baton_rouge
+category: guests_2016
 ---
 
 <a href="/images/guests/austin_tindle.jpg" data-lightbox="guests"><img class="img-responsive" src="/images/guests/austin_tindle.jpg" alt="Austin Tindle" width="300" height="600" style="border:5px solid yellow; float:left; margin:10px;"></a>

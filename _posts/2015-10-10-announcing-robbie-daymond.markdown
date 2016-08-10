@@ -4,7 +4,7 @@ title:  Announcing Robbie Daymond
 description: Get ready to meet the incredibly talented and entertaining Robbie Daymond to LouisiANIME 2016 in Baton Rouge!
 image: /images/meta/robbie_daymond_wide.jpg
 thumbnail: /images/guests/headshot_robbie_daymond_thumbnail.jpg
-category: 2016_guests_baton_rouge
+category: guests_2016
 ---
 
 

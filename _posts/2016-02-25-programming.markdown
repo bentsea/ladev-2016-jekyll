@@ -17,6 +17,8 @@ permalink: /programming
                 <h4>So Much to Do, So Little Time</h4>
             </div>
         </div>
+
+        <!--
         <div class="col-md-12 mg-bt-80">
           <p>We're very excited to reveal our preliminary schedule for LouisiANIME 2016 in Baton Rouge. Please be aware that this is a preliminary schedule and is subject to change. Click on the images below to load the full PDF:</p>
           <p><a href="/schedule"><img class="img-responsive" src="/images/information/louisianime_br_2016_schedule.png" alt="LouisiANIME 2016 Baton Rouge Schedule"></a></p>
@@ -27,7 +29,7 @@ permalink: /programming
 
         <div class="col-md-12">
             <div class="row">
-                {% for post in site.categories.2016_guests_baton_rouge %}
+                {% for post in site.categories.guests_2017 %}
                 <div class="col-md-4 mg-bt-40">
                     <div class="row services-item">
                         <div class="col-xs-12 col-sm-3">
@@ -49,7 +51,8 @@ permalink: /programming
                 {% endfor %}
             </div>
 
-        <!--
+            -->
+
         <div class="col-md-8 mg-bt-80">
             <p>In addition to having amazing and talented guests, LouisiANIME has a wide variety of programming for all ages. We have unique programming provided every year by volunteer staff as well as regular programming events that we provide directly and through direct partnerships with talented featured panelists to cater to a variety of fandoms, in addition to the amazing content produced by volunteers every year. </p>
             <p>Check out some of the programming we bring to you every year:</p>

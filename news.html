@@ -1,0 +1,52 @@
+---
+layout: default
+title: News
+description: News about dates, guests, and other updates from LouisiANIME. Check here frequently to learn more about next year's event!
+---
+
+
+<!-- BEGIN BLOG -->
+<section id="blog-front" class="blog-front">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="header-content">
+                <h2>News</h2>
+                <h3>Keep up with all our <b>latest</b> news</a>.
+                </h3>
+            </div>
+            <p>Check back here regularly for news and announcements. We'll post here whenever anything special is happening so that you can keep up with everything we're up to. You can also read our <a href="/blog/">archive</a> for information from past convetions and previous guests.</p>
+        </div>
+    </div>
+    <div class="row">
+        {% for post in site.posts limit:5 %}
+        <article class="col-md-4 col-sm-6">
+            <a href="{{ post.url }}"><figure class="blog-thumb">
+                <img src="{% if post.image %}{{ post.image }}{% else %}/images/carousel/carousel1.jpg{% endif %}" alt="{{ post.description }}" {% if post.description %}title="{{ post.description }}"{% endif %}>
+            </figure></a>
+            <div class="post-area">
+                <a href="{{ post.url }}">
+                    <h4>{{ post.title }}</h4>
+                </a>
+                <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <p class="post-content">{{post.content|strip_html|truncate:200}}</p>
+                <a class="btn btn-dark" href="{{ post.url }}">Read More</a>
+            </div>
+        </article>
+        {% endfor %}
+        <article class="col-md-4 col-sm-6">
+            <a href="/blog">
+                <figure class="blog-thumb">
+                    <img src="/images/carousel/carousel1.jpg">
+                </figure>
+            </a>
+            <div class="post-area">
+                <a href="/blog">
+                    <h4>Archive</h4>
+                </a>
+                <p class="post-content">If you'd like to view older posts, feel free to visit our full archive of LouisiANIME posts and blog articles.</p>
+                <a class="btn btn-dark" href="/blog">Archive...</a>
+            </div>
+        </article>
+    </div>
+</section>
+<!-- END BLOG -->
