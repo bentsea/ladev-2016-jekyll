@@ -5,22 +5,22 @@ description: LouisiANIME Artist and Vendor Information. Check here for updates a
 image: /images/meta/dealers_room.jpeg
 date: 2016-02-27
 category: information
-permalink: /vendors
+permalink: /vendors/
 ---
 
-##Artist Alley
+<h2>Artist Alley</h2>
 <p>Please read both this product description and our <a href="/tos">terms of service</a> carefully. An Artist Alley table at LouisiANIME comes with 1 table in the Artist Alley and one badge and will be hosted on the floor of the hotel. Up to 2 extra badges may be added for $30 each for a total of 3 badges. Register below:</p>
 <ul>
 	<li><a href="/artistalley"><b>Artist Alley Registration</b></a></li>
 </ul>
 
 
-##Dealers Room
+<h2>Dealers Room</h2>
 <img src="/images/information/dealers_room.jpeg" alt="dealers room image" class="img-responsive" style="border:5px solid white; margin: 10px; float: right" width="600" height="400"/>
 
 At LouisiANIME, we bring together all sorts of vendors who sell quality merchandise such as DVDs, t-shirts, costume props, games, figures.  The dealers room is a fun and convenient place to buy products that cater to fans of pop culture and anime that are not readily available in local stores.  Every year we bring in some new vendors to sell alongside the veteran dealers in order to ensure an ever changing and current line of products assembled for you, the LouisiANIME attendee.
 
-LouisiANIME is proud host a wide variety of dealers. At LouisiANIME 2017 you'll be able to purchase from the following dealers:
+LouisiANIME is proud host a wide variety of dealers. The following dealers have vended at LouisiANIME during past conventions:
 
 * [Loyal K.N.G.](http://loyalkng.com/ "Loyal K.N.G.")
 * FireFly Lane

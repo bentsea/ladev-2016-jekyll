@@ -4,7 +4,7 @@ title:  LouisiANIME Programming Information
 description: Be a part of LouisiANIME as a panelist, enjoy free entrance to the convention and actively sharing your passions! Start discussions, teach craft, demo your art, and have a blast! Check back here close to the show for our schedule.
 date: 2016-02-25
 category: information
-permalink: /programming
+permalink: /programming/
 ---
 
 
