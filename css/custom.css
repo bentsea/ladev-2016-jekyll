@@ -1105,13 +1105,13 @@ body .brands.main li a:hover {
 }
 
 .jumbotron3 #slide-1 {
-	background-image: url(../image/bg6.jpg); 
+	background-image: url(/img/default/bg6.jpg); 
 	background-position:right bottom;
 	text-align:center;
 }
 
 .jumbotron3 #slide-2 {
-	background-image: url(../image/bg7.jpg); 
+	background-image: url(/img/default/bg7.jpg); 
 	background-position:right -170px;
 }
 
@@ -1189,7 +1189,7 @@ body .brands.main li a:hover {
 /* JUMBOTRON 5 */
 
 .jumbotron5 {
-	background-image: url(../image/bg4.jpg);
+	background-image: url(/img/default/bg4.jpg);
 	padding:0;
 	height:500px;
 	background-position:center center;
@@ -1199,14 +1199,14 @@ body .brands.main li a:hover {
 /* JUMBOTRON 6 */
 
 .jumbotron6 #slide-1 {
-	background-image: url(../image/bg2.jpg); 
+	background-image: url(/img/default/bg2.jpg); 
 	background-position:right -280px;
 }
 
 .jumbotron6 #slide-2 {
 	background-position:right -180px;
 	background-color: rgba(0,0,0,0.1);
-	background-image: url(../image/bg1.jpg);
+	background-image: url(/img/default/bg1.jpg);
 	position: relative;
 }
 
@@ -1218,7 +1218,7 @@ body .brands.main li a:hover {
 }
 
 .jumbotron6 #slide-3 {
-	background-image: url(../image/bg5.jpg); 
+	background-image: url(/img/default/bg5.jpg); 
 	background-position:left -200px;
 }
 
@@ -1330,13 +1330,13 @@ body .jumbotron5 .btn:first-child:hover {
 }
 
 .btn-googleplay {
-	background-image: url(../image/googleplay.png);
+	background-image: url(/img/default/googleplay.png);
 	background-size:100%;
 	margin-right:10px;
 }
 
 .btn-appstore {
-	background-image: url(../image/appstore.png); 
+	background-image: url(/img/default/appstore.png); 
 	background-size:100%; 
 }
 
@@ -3897,7 +3897,7 @@ body .blog-timeline .blog-post:hover .blog-post-info .month {
 ------------------------------*/
 
 .jumbotron-event {
-	background-image:url(../image/event_bg.png);
+	background-image:url(/img/default/event_bg.png);
 	background-size:100%;
 	padding:70px 0 0;
 	text-align:center;

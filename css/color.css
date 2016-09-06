@@ -150,18 +150,18 @@ body.color-green .map-overlay {
 
 body.color-green .jumbotron2,
 body.color-green .jumbotron4 {
-	background-image: linear-gradient(rgba(22, 160, 133, 0.9), rgba(22, 160, 133, 0.9)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(22, 160, 133, 0.9), rgba(22, 160, 133, 0.9)), url(/img/default/bg3.jpg);
 }
 
 body.color-green .jumbotron7 {
-	background-image: linear-gradient(rgba(22, 160, 133, 0.6), rgba(22, 160, 133, 0.6)),url(../image/gplaypattern.png);
+	background-image: linear-gradient(rgba(22, 160, 133, 0.6), rgba(22, 160, 133, 0.6)),url(/img/default/gplaypattern.png);
 }
 
 body.color-green #section-blog-posts,
 body.color-green #section-testimonials,
 body.color-green #section-statistics,
 body.color-green .jumbotron1 {
-	background-image: linear-gradient(rgba(22, 160, 133, 0.6), rgba(22, 160, 133, 0.6)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(22, 160, 133, 0.6), rgba(22, 160, 133, 0.6)), url(/img/default/bg3.jpg);
 }
 
 @media (max-width:991px) {
@@ -345,18 +345,18 @@ body.color-blue .map-overlay {
 
 body.color-blue .jumbotron2,
 body.color-blue .jumbotron4 {
-	background-image: linear-gradient(rgba(13, 88, 166, 0.9), rgba(13, 88, 166, 0.9)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(13, 88, 166, 0.9), rgba(13, 88, 166, 0.9)), url(/img/default/bg3.jpg);
 }
 
 body.color-blue .jumbotron7 {
-	background-image: linear-gradient(rgba(13, 88, 166, 0.6), rgba(13, 88, 166, 0.6)),url(../image/gplaypattern.png);
+	background-image: linear-gradient(rgba(13, 88, 166, 0.6), rgba(13, 88, 166, 0.6)),url(/img/default/gplaypattern.png);
 }
 
 body.color-blue #section-blog-posts,
 body.color-blue #section-testimonials,
 body.color-blue #section-statistics,
 body.color-blue .jumbotron1 {
-	background-image: linear-gradient(rgba(13, 88, 166, 0.6), rgba(13, 88, 166, 0.6)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(13, 88, 166, 0.6), rgba(13, 88, 166, 0.6)), url(/img/default/bg3.jpg);
 }
 
 @media (max-width:991px) {
@@ -541,18 +541,18 @@ body.color-orange .map-overlay {
 
 body.color-orange .jumbotron2,
 body.color-orange .jumbotron4 {
-	background-image: linear-gradient(rgba(255, 178, 58, 0.9), rgba(255, 178, 58, 0.9)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(255, 178, 58, 0.9), rgba(255, 178, 58, 0.9)), url(/img/default/bg3.jpg);
 }
 
 body.color-orange .jumbotron7 {
-	background-image: linear-gradient(rgba(255, 178, 58, 0.6), rgba(255, 178, 58, 0.6)),url(../image/gplaypattern.png);
+	background-image: linear-gradient(rgba(255, 178, 58, 0.6), rgba(255, 178, 58, 0.6)),url(/img/default/gplaypattern.png);
 }
 
 body.color-orange #section-blog-posts,
 body.color-orange #section-testimonials,
 body.color-orange #section-statistics,
 body.color-orange .jumbotron1 {
-	background-image: linear-gradient(rgba(255, 178, 58, 0.6), rgba(255, 178, 58, 0.6)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(255, 178, 58, 0.6), rgba(255, 178, 58, 0.6)), url(/img/default/bg3.jpg);
 }
 
 @media (max-width:991px) {
@@ -736,18 +736,18 @@ body.color-red .map-overlay {
 
 body.color-red .jumbotron2,
 body.color-red .jumbotron4 {
-	background-image: linear-gradient(rgba(184, 17, 23, 0.9), rgba(184, 17, 23, 0.9)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(184, 17, 23, 0.9), rgba(184, 17, 23, 0.9)), url(/img/default/bg3.jpg);
 }
 
 body.color-red .jumbotron7 {
-	background-image: linear-gradient(rgba(184, 17, 23, 0.6), rgba(184, 17, 23, 0.6)),url(../image/gplaypattern.png);
+	background-image: linear-gradient(rgba(184, 17, 23, 0.6), rgba(184, 17, 23, 0.6)),url(/img/default/gplaypattern.png);
 }
 
 body.color-red #section-blog-posts,
 body.color-red #section-testimonials,
 body.color-red #section-statistics,
 body.color-red .jumbotron1 {
-	background-image: linear-gradient(rgba(184, 17, 23, 0.6), rgba(184, 17, 23, 0.6)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(184, 17, 23, 0.6), rgba(184, 17, 23, 0.6)), url(/img/default/bg3.jpg);
 }
 
 @media (max-width:991px) {
@@ -931,18 +931,18 @@ body.color-purple .map-overlay {
 
 body.color-purple .jumbotron2,
 body.color-purple .jumbotron4 {
-	background-image: linear-gradient(rgba(136, 0, 69, 0.9), rgba(136, 0, 69, 0.9)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(136, 0, 69, 0.9), rgba(136, 0, 69, 0.9)), url(/img/default/bg3.jpg);
 }
 
 body.color-purple .jumbotron7 {
-	background-image: linear-gradient(rgba(136, 0, 69, 0.6), rgba(136, 0, 69, 0.6)),url(../image/gplaypattern.png);
+	background-image: linear-gradient(rgba(136, 0, 69, 0.6), rgba(136, 0, 69, 0.6)),url(/img/default/gplaypattern.png);
 }
 
 body.color-purple #section-blog-posts,
 body.color-purple #section-testimonials,
 body.color-purple #section-statistics,
 body.color-purple .jumbotron1 {
-	background-image: linear-gradient(rgba(136, 0, 69, 0.6), rgba(136, 0, 69, 0.6)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(136, 0, 69, 0.6), rgba(136, 0, 69, 0.6)), url(/img/default/bg3.jpg);
 }
 
 @media (max-width:991px) {
@@ -1126,18 +1126,18 @@ body.color-light-blue .map-overlay {
 
 body.color-light-blue .jumbotron2,
 body.color-light-blue .jumbotron4 {
-	background-image: linear-gradient(rgba(47, 195, 223, 0.9), rgba(47, 195, 223, 0.9)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(47, 195, 223, 0.9), rgba(47, 195, 223, 0.9)), url(/img/default/bg3.jpg);
 }
 
 body.color-light-blue .jumbotron7 {
-	background-image: linear-gradient(rgba(47, 195, 223, 0.6), rgba(47, 195, 223, 0.6)),url(../image/gplaypattern.png);
+	background-image: linear-gradient(rgba(47, 195, 223, 0.6), rgba(47, 195, 223, 0.6)),url(/img/default/gplaypattern.png);
 }
 
 body.color-light-blue #section-blog-posts,
 body.color-light-blue #section-testimonials,
 body.color-light-blue #section-statistics,
 body.color-light-blue .jumbotron1 {
-	background-image: linear-gradient(rgba(47, 195, 223, 0.6), rgba(47, 195, 223, 0.6)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(47, 195, 223, 0.6), rgba(47, 195, 223, 0.6)), url(/img/default/bg3.jpg);
 }
 
 @media (max-width:991px) {
@@ -1321,18 +1321,18 @@ body.color-yellow .map-overlay {
 
 body.color-yellow .jumbotron2,
 body.color-yellow .jumbotron4 {
-	background-image: linear-gradient(rgba(232, 202, 32, 0.9), rgba(232, 202, 32, 0.9)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(232, 202, 32, 0.9), rgba(232, 202, 32, 0.9)), url(/img/default/bg3.jpg);
 }
 
 body.color-yellow .jumbotron7 {
-	background-image: linear-gradient(rgba(232, 202, 32, 0.6), rgba(232, 202, 32, 0.6)),url(../image/gplaypattern.png);
+	background-image: linear-gradient(rgba(232, 202, 32, 0.6), rgba(232, 202, 32, 0.6)),url(/img/default/gplaypattern.png);
 }
 
 body.color-yellow #section-blog-posts,
 body.color-yellow #section-testimonials,
 body.color-yellow #section-statistics,
 body.color-yellow .jumbotron1 {
-	background-image: linear-gradient(rgba(232, 202, 32, 0.6), rgba(232, 202, 32, 0.6)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(232, 202, 32, 0.6), rgba(232, 202, 32, 0.6)), url(/img/default/bg3.jpg);
 }
 
 @media (max-width:991px) {
@@ -1516,18 +1516,18 @@ body.color-pink .map-overlay {
 
 body.color-pink .jumbotron2,
 body.color-pink .jumbotron4 {
-	background-image: linear-gradient(rgba(232, 64, 151, 0.9), rgba(232, 64, 151, 0.9)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(232, 64, 151, 0.9), rgba(232, 64, 151, 0.9)), url(/img/default/bg3.jpg);
 }
 
 body.color-pink .jumbotron7 {
-	background-image: linear-gradient(rgba(232, 64, 151, 0.6), rgba(232, 64, 151, 0.6)),url(../image/gplaypattern.png);
+	background-image: linear-gradient(rgba(232, 64, 151, 0.6), rgba(232, 64, 151, 0.6)),url(/img/default/gplaypattern.png);
 }
 
 body.color-pink #section-blog-posts,
 body.color-pink #section-testimonials,
 body.color-pink #section-statistics,
 body.color-pink .jumbotron1 {
-	background-image: linear-gradient(rgba(232, 64, 151, 0.6), rgba(232, 64, 151, 0.6)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(232, 64, 151, 0.6), rgba(232, 64, 151, 0.6)), url(/img/default/bg3.jpg);
 }
 
 @media (max-width:991px) {
@@ -1711,18 +1711,18 @@ body.color-light-green .map-overlay {
 
 body.color-light-green .jumbotron2,
 body.color-light-green .jumbotron4 {
-	background-image: linear-gradient(rgba(186, 215, 47, 0.9), rgba(186, 215, 47, 0.9)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(186, 215, 47, 0.9), rgba(186, 215, 47, 0.9)), url(/img/default/bg3.jpg);
 }
 
 body.color-light-green .jumbotron7 {
-	background-image: linear-gradient(rgba(186, 215, 47, 0.6), rgba(186, 215, 47, 0.6)),url(../image/gplaypattern.png);
+	background-image: linear-gradient(rgba(186, 215, 47, 0.6), rgba(186, 215, 47, 0.6)),url(/img/default/gplaypattern.png);
 }
 
 body.color-light-green #section-blog-posts,
 body.color-light-green #section-testimonials,
 body.color-light-green #section-statistics,
 body.color-light-green .jumbotron1 {
-	background-image: linear-gradient(rgba(186, 215, 47, 0.6), rgba(186, 215, 47, 0.6)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(186, 215, 47, 0.6), rgba(186, 215, 47, 0.6)), url(/img/default/bg3.jpg);
 }
 
 @media (max-width:991px) {
@@ -1906,18 +1906,18 @@ body.color-black .map-overlay {
 
 body.color-black .jumbotron2,
 body.color-black .jumbotron4 {
-	background-image: linear-gradient(rgba(134, 134, 134, 0.9), rgba(134, 134, 134, 0.9)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(134, 134, 134, 0.9), rgba(134, 134, 134, 0.9)), url(/img/default/bg3.jpg);
 }
 
 body.color-black .jumbotron7 {
-	background-image: linear-gradient(rgba(134, 134, 134, 0.6), rgba(134, 134, 134, 0.6)),url(../image/gplaypattern.png);
+	background-image: linear-gradient(rgba(134, 134, 134, 0.6), rgba(134, 134, 134, 0.6)),url(/img/default/gplaypattern.png);
 }
 
 body.color-black #section-blog-posts,
 body.color-black #section-testimonials,
 body.color-black #section-statistics,
 body.color-black .jumbotron1 {
-	background-image: linear-gradient(rgba(134, 134, 134, 0.6), rgba(134, 134, 134, 0.6)), url(../image/bg3.jpg);
+	background-image: linear-gradient(rgba(134, 134, 134, 0.6), rgba(134, 134, 134, 0.6)), url(/img/default/bg3.jpg);
 }
 
 @media (max-width:991px) {
