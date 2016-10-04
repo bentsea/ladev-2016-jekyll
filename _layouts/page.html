@@ -1,29 +1,14 @@
-<!DOCTYPE html>
-<html>
-  <head>
-      <!-- PACE Loader -->
-    <!-- <script src="/js/lib/pace.min.js"></script>
-    <link href="/css/lib/pace.css" rel="stylesheet"> -->
-    <!-- END PACE Loader -->
-    {% include head.html %}
-  </head>
+---
+layout: default
+---
+<div class="post">
 
-  <body data-spy="scroll">
-    <!-- <div id="loader"></div> -->
-    <div id="main-wrapper">
-             {% include header.page.html %}
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
 
-      <div id="container">
-        <div class="wrapper">
-          {{ content }}
-          {% include contact.html %}
-          <div class="push"></div>
-        </div>
-        {% include footer.html %}
-      </div>
-    </div>
-    {% include navigate.html %}
-    {% include scripts.html %}
-  </body>
+  <article class="post-content">
+    {{ content }}
+  </article>
 
-</html>
+</div>

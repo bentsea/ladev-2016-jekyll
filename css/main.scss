@@ -1,0 +1,173 @@
+---
+---
+
+$primary-color: #2451a4;
+$text-color: #000;
+$inverted-text: #fff;
+$secondary-color: #325464;
+$header-color: #25264b;
+$button-hover: #25264b;
+
+.slider .overlay .call-to-action a {
+	color: $inverted-text;
+}
+
+.slider .overlay h3 {
+	background-color: $primary-color;
+	color: $inverted-text;
+	opacity: 0.9;
+	margin-top: 2px;
+	padding: 10px;
+}
+
+h1::before {
+	background-color: $primary-color;
+}
+
+.slider .overlay .call-to-action {
+	background-color: $header-color;
+}
+
+.navigation .navbar .navbar-collapse .nav li a {
+	color: $primary-color;
+}
+
+.navigation .navbar .navbar-collapse .nav li.active a {
+	color: $primary-color;
+}
+
+.navigation .navbar .navbar-collapse .nav li.active a:after {
+	background-color: $primary-color;
+}
+
+.navigation .navbar .navbar-collapse .nav li a:after {
+	background-color: $primary-color;
+}
+.navigation .navbar .navbar-collapse .nav li a:hover {
+	color: $primary-color;
+}
+.navigation .navbar .navbar-collapse .nav li a:hover:after {
+	background-color: $primary-color;
+}
+
+.speaker .image .plus-wrapper .plus {
+	background-color: $primary-color;
+}
+
+.about .information .date {
+	color: $header-color;
+}
+
+.find-way .form-group {
+	background-color: $header-color;
+}
+
+.find-way .form-group::after {
+	background-color: $header-color;
+}
+
+.panel-group .panel .panel-header .time i {
+	color: $header-color;
+}
+
+.panel-group .panel .panel-header .fa-plus {
+	color: $header-color;
+}
+
+.ticket header figure {
+	color: $header-color;
+}
+
+.ticket ul li.checked i {
+	color: $header-color;
+}
+
+footer .footer-bottom .contact h3 {
+	color: $header-color;
+}
+
+a:hover, a:active, a:focus {
+	color: $header-color;
+}
+
+a:hover, a:active, a:focus {
+	color: $header-color;
+}
+
+footer a {
+	color: $header-color;
+}
+
+p {
+	color: $text-color;
+	opacity: 0.75;
+}
+
+form.background-color-default .form-wrapper {
+	background-color: $header-color;
+}
+
+.btn.btn-default, select.btn-default {
+	color: $header-color;
+}
+
+.checkbox {
+	color: rgba(0, 0, 0, 0.75);
+}
+
+.btn.btn-default i, select.btn-default i {
+	color: $header-color;
+}
+
+.btn.btn-primary, select.btn-primary {
+	background-color: $header-color;
+}
+
+.btn.btn-primary:hover, select.btn-primary:hover {
+	background-color: $button-hover;
+}
+
+a {
+	color: $header-color;
+}
+
+.bootstrap-select .dropdown-menu li a:hover {
+	background-color: $header-color;
+
+}
+
+
+.thumbnail {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  max-width:none;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto;
+}
+
+.modal .modal-dialog .modal-footer {
+	background-color: $primary-color;
+}
+
+
+.about .information .location, .about .information .address{
+	color: $text-color;
+}
+
+.slider .overlay .information {
+	color: $text-color;
+}

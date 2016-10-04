@@ -1,55 +1,19 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    {% include head.html %}
-  </head>
-
-  <body class="color-green">
-    <!-- ==========================
-      	FACEBOOK - SHARE BUTTON
-      =========================== -->
-  	<div id="fb-root"></div>
-  	<script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
+<html lang="en-US">
 
 
-      <!-- ==========================
-      COLOR SWITCHER - START
-      =========================== -->
-      <div id="color-switcher">
-          <div id="toggle-switcher"><i class="fa fa-gear"></i></div>
-          <span>Color Scheme:</span>
-          <ul class="list-unstyled list-inline">
-              <li id="blue" data-toggle="tooltip" data-placement="top" title="Blue"></li>
-              <li id="green" data-toggle="tooltip" data-placement="top" title="Green"></li>
-              <li id="orange" data-toggle="tooltip" data-placement="top" title="Orange"></li>
-              <li id="red" data-toggle="tooltip" data-placement="top" title="Red"></li>
-              <li id="purple" data-toggle="tooltip" data-placement="top" title="Purple"></li>
-              <li id="light-blue" data-toggle="tooltip" data-placement="top" title="Light Blue"></li>
-              <li id="yellow" data-toggle="tooltip" data-placement="top" title="Yellow"></li>
-              <li id="pink" data-toggle="tooltip" data-placement="top" title="Pink"></li>
-              <li id="light-green" data-toggle="tooltip" data-placement="top" title="Light Green"></li>
-              <li id="black" data-toggle="tooltip" data-placement="top" title="Black"></li>
-          </ul>
+  {% include head.html %}
 
-          <button id="page-boxed-toggle" class="btn btn-primary">Boxed Page</button>
-      </div>
-      <!-- ==========================
-          COLOR SWITCHER - END
-      =========================== -->
+  <body data-spy="scroll" data-target=".navigation" data-offset="150" id="top">
+  <!-- Wrapper -->
+    <div class="wrapper">
 
-      <div id="page-wrapper" class="">
-        {% include header.html %}
+      {{ content }}
 
-        {{ content }}
+      {% include footer.html %}
 
-        {% include footer.html %}
-      </div>
-      {% include scripts.html %}
+    </div>
+  <!-- End Wrapper -->
+    {% include modal.html %}
   </body>
 </html>
