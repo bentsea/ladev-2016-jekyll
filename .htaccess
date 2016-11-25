@@ -1,0 +1,38 @@
+RewriteOptions inherit
+
+ErrorDocument 404 /404/index.html
+
+AddHandler application/x-httpd-php5 .html
+
+# Always use www in the domain
+# Replace 'example.com' with your domain name
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^forms\. [NC]
+RewriteCond %{HTTP_HOST} !^dev\. [NC]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{HTTP_HOST} ^louisianime\.com$ [NC]
+RewriteRule .? http://www.%1louisianime.com%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^louisianime\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.louisianime\.com$
+RewriteRule ^registration$ "http\:\/\/louisianime2017\.eventbrite\.com" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^louisianime\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.louisianime\.com$
+RewriteRule ^artistalley\/?$ "http\s:\/\/www\.eventbrite\.com\/e\/louisianime\-baton\-rouge\-2017\-dealers\-tickets\-24221591432" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^louisianime\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.louisianime\.com$
+RewriteRule ^news\/$ "http\:\/\/www\.louisianime\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^louisianime\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.louisianime\.com$
+RewriteRule ^contacts$ "http\:\/\/www\.louisianime\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^louisianime\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.louisianime\.com$
+RewriteRule ^programming$ "http\:\/\/www\.louisianime\.com\/" [R=302,L]
+
+RewriteCond %{HTTP_HOST} ^louisianime\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.louisianime\.com$
+RewriteRule ^news\/2015\/04\/29\/ready-to-plan-your-schedule\/$ "http\:\/\/www\.louisianime\.com\/" [R=301,L]
